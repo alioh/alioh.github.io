@@ -1,7 +1,6 @@
 ---  
 layout: post
 title: تعلم الآلة للجميع - 4
-published: false
 ---  
 
 بعد أن تعمقنا قليلاً في [التعلم الموجَّه](https://alioh.github.io/Machine-Learning-for-Everyone-3/) وخوارزمياته، سأنتقل للتحدث عن النوع الآخر من طرق تعلم الآلة وهو التعلم غير الموجَّه.
