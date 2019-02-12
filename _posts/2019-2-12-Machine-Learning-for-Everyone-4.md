@@ -56,7 +56,7 @@ published: false
    يساوي نتيجة Support لدينا وهي 0.4 تقسم على نتيجة الـSupport لكل منتج على حدة، للمنتج A النتيجة 0.6 وللمنتج C النتيجة 0.8. النتيجة النهائية للـLift هي:
    0.4 ÷ (0.6 * 0.8) = 0.833  
 
-من الخوارزميات التي تنحدر أسفل Association Rules هي Apriori Algorithm، تقوم الخوارزمية بإكتشاف القيم الأكثر تكراراً. وتعمل كالتالي:  
+من الخوارزميات التي تنحدر أسفل Association Rules هي Apriori Algorithm، تقوم الخوارزمية بإكتشاف القيم الأكثر تكراراً. وتعمل كالتالي:  [^4]
 
 ![](https://alioh.github.io/images/2019-2-13/6.jpg)  
 
@@ -65,7 +65,7 @@ published: false
   * يتم جمع القيم الأعلى من العملية الأخيره مع باقي القيم التي مجموع تكرارها أكبر من 1.
   * نكرر العملية الأخيره مره أخرى إلى ان تتبقى لنا قيمة واحده.  
 
-مثال آخر [هنا](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html/2)  
+مثال آخر [هنا](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html/2) أو [هنا](https://www.hackerearth.com/blog/machine-learning/beginners-tutorial-apriori-algorithm-data-mining-r-implementation/).  
 
 
 
@@ -73,6 +73,3 @@ published: false
 [^2]: <https://towardsdatascience.com/clustering-unsupervised-learning-788b215b074b>
 [^3]: <https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68>
 [^4]: <https://www.saedsayad.com/association_rules.htm>
-https://chatbotsmagazine.com/lets-know-supervised-and-unsupervised-in-an-easy-way-9168363e06ab
-https://medium.com/machine-learning-for-humans/unsupervised-learning-f45587588294
-
