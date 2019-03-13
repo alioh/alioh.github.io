@@ -56,13 +56,13 @@ title: تعلم الآلة للجميع - 5
   -----
   
   
-  فهرس:  
-  [تعلم الآلة للجميع - 1](https://alioh.github.io/Machine-Learning-for-Everyone-1/)
-  [تعلم الآلة للجميع - 2](https://alioh.github.io/Machine-Learning-for-Everyone-2/)  
-  [تعلم الآلة للجميع - 3](https://alioh.github.io/Machine-Learning-for-Everyone-3/)
-  [تعلم الآلة للجميع - 4](https://alioh.github.io/Machine-Learning-for-Everyone-4/)  
-  [تعلم الآلة للجميع - 5](https://alioh.github.io/Machine-Learning-for-Everyone-5/)  
-  
+فهرس:  
+- [تعلم الآلة للجميع - 1](https://alioh.github.io/Machine-Learning-for-Everyone-1/)  
+- [تعلم الآلة للجميع - 2](https://alioh.github.io/Machine-Learning-for-Everyone-2/)  
+- [تعلم الآلة للجميع - 3](https://alioh.github.io/Machine-Learning-for-Everyone-3/)  
+- [تعلم الآلة للجميع - 4](https://alioh.github.io/Machine-Learning-for-Everyone-4/)  
+- [تعلم الآلة للجميع - 5](https://alioh.github.io/Machine-Learning-for-Everyone-5/)  
+
 
 [^1]: <https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419>
 [^2]: <https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe>
