@@ -59,9 +59,12 @@ title: تعلم الآلة للجميع - 3
 * **(Polynomial Regression) الإنحدار المتعدد**: ولا يتم هذا الإنحدار إلا أذا كانت البيانات خطية، ويعتبر إستخدامه محدد ولا يتم إلا في حالات خاصة.
 ![](https://alioh.github.io/images/2019-2-11/10.png)  
 في الرسم البياني أعلاه، أستخدمنا نفس البيانات ورسمناها بطريقتين، إنحدار خطي ومتعدد، ويظهر أنها في كلا الحالتين اظهرت نتائج كون كما ذكرت سابقاً، ليتم تكوين إنحدار متعدد يجب أن يتم تشكيل إنحدار خطي أولاً. أمثلة على [الإنحدار الخطي](https://www.geeksforgeeks.org/linear-regression-python-implementation/) و[المتعدد](https://www.geeksforgeeks.org/python-implementation-of-polynomial-regression/).
-
-
-
+  
+  
+  -----
+  [العودة إلى تعلم الآلة للجميع - 2](https://alioh.github.io/Machine-Learning-for-Everyone-2/)  [الإنتقال إلى تعلم الآلة للجميع - 4](https://alioh.github.io/Machine-Learning-for-Everyone-4/)  
+  
+  
 
 [^1]: <https://twitter.com/Dr_Hmood/status/928772600599384064>
 [^2]: <https://twitter.com/Dr_Hmood/status/903048189040877568>

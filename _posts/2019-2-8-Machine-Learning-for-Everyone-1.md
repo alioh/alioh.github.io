@@ -75,7 +75,12 @@ title: تعلم الآلة للجميع - 1
 يعتمد كل شئ على البيانات المعطاة، اذا قدمت بيانات خاطئة وغير دقيقه أو غير صحيحه، فلن تستطيع أي خوارزمية إيجاد أفضل نموذج لها.  
   
   
+  -----
+  [الإنتقال إلى تعلم الآلة للجميع - 2](https://alioh.github.io/Machine-Learning-for-Everyone-2/)  
   
+  
+
+
 [^1]: <https://vas3k.com/blog/machine_learning/>
 [^2]: <https://www.nmthgiat.com/terminology/>
 [^3]: <https://www.techradar.com/news/captcha-if-you-can-how-youve-been-training-ai-for-years-without-realising-it>  
