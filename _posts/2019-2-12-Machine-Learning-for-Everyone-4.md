@@ -70,7 +70,11 @@ title: تعلم الآلة للجميع - 4
 توجد إستخدامات كثيره للخوارزمية وليست فقط محدودة على المحلات التجارية، يمكن أستخدامها في مواقع مثل (Netflix) لتقديم إقتراحات المشاهدة.  
 
 مثال آخر [هنا](https://www.kdnuggets.com/2016/04/association-rules-apriori-algorithm-tutorial.html/2) أو [هنا](https://www.hackerearth.com/blog/machine-learning/beginners-tutorial-apriori-algorithm-data-mining-r-implementation/).  
-
+  
+  
+  -----
+  [العودة إلى تعلم الآلة للجميع - 3](https://alioh.github.io/Machine-Learning-for-Everyone-3/)   -   [الإنتقال إلى تعلم الآلة للجميع - 5](https://alioh.github.io/Machine-Learning-for-Everyone-5/)  
+  
 
 
 [^1]: <https://uxdesign.cc/an-intro-to-machine-learning-for-designers-5c74ba100257>

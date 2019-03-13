@@ -54,7 +54,7 @@ title: تعلم الآلة للجميع - 2
   
   
   -----
-  [العودة إلى تعلم الآلة للجميع - 1](https://alioh.github.io/Machine-Learning-for-Everyone-1/)  [الإنتقال إلى تعلم الآلة للجميع - 3](https://alioh.github.io/Machine-Learning-for-Everyone-3/)  
+  [العودة إلى تعلم الآلة للجميع - 1](https://alioh.github.io/Machine-Learning-for-Everyone-1/)   -   [الإنتقال إلى تعلم الآلة للجميع - 3](https://alioh.github.io/Machine-Learning-for-Everyone-3/)  
   
   
 
