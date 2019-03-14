@@ -110,7 +110,7 @@ Error = -2.8 - -4 = 1.2
 ### Linear Regression  
 اذا كان لدينا متغير Feature واحدة
 
-``python
+```python
 from sklearn.linear_model import LinearRegression
 import numpy as np
 import pandas as pd
@@ -120,13 +120,13 @@ bmi_life_data = pd.DataFrame.from_csv('bmi_and_life_expectancy.csv')
 bmi_life_model = LinearRegression()
 bmi_life_model.fit(bmi_life_data[['BMI']], bmi_life_data[['Life expectancy']])
 laos_life_exp = bmi_life_model.predict([[21.07931]])
-``
+```
 x_values = المتغيرات التي نرغب التنبؤ بها  
 y_values = النتيجة التي نتنبأ عنها
 
 
 ### Multiple Linear Regression  
-``python
+```python
 from sklearn.linear_model import LinearRegression
 from sklearn.datasets import load_boston
  
@@ -140,12 +140,12 @@ sample_house = [[2.29690000e-01, 0.00000000e+00, 1.05900000e+01, 0.00000000e+00,
                 6.32600000e+00, 5.25000000e+01, 4.35490000e+00, 4.00000000e+00, 2.77000000e+02,
                 1.86000000e+01, 3.94870000e+02, 1.09700000e+01]]
 prediction = model.predict(sample_house)
-``
+```
 
 
 ### Polynomial Regression  
 نستخدم Polynomial Features لأضافة المزيد من المتغيرات Features. [^3]
-``python
+```python
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -159,13 +159,13 @@ poly_feat = PolynomialFeatures(degree = 4)
 X_poly = poly_feat.fit_transform(X)
 
 poly_model = LinearRegression(fit_intercept = False).fit(X_poly, y)
-``
+```
 
 -------
 ### Regularization
 طريقة لإضافة المزيد من البيانات لحل مشكلة لدينا أو للتخلص من فرط التخصيص Overfitting [^4]
 
-``python
+```python
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -180,7 +180,7 @@ lasso_reg.fit(X,y)
 
 reg_coef = lasso_reg.coef_
 print(reg_coef)
-``
+```
 
 
 ### Feature Scaling  
@@ -188,7 +188,7 @@ print(reg_coef)
 - Standardizing: تستخدم عندما يكون لدينا الكثير من البيانات الشاذه.  
 - Normalizing: تحول فيها البيانات إلى ارقام من 0 إلى 1.  
 
-``python
+```python
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -209,7 +209,7 @@ lasso_reg.fit(X_scaled, y)
 
 reg_coef = lasso_reg.coef_
 print(reg_coef)
-``
+```
 
 ## نقطتين مهمه عن Linear Regression
 
