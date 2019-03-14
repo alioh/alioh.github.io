@@ -15,38 +15,39 @@ title: ملخص كورس علم البيانات - 1
 توجد ثلاث انواع من تعلم الآلة
 
 
-##### التعلم الموجَّه Supervised Learning  
+##### 1- التعلم الموجَّه Supervised Learning  
 في التعليم الموجَّه، تتعلم الخوارزمية من البيانات التي لدينا ومن نتائجها، بعد أن تدرسها الخوارزمية، تستطيع توقع نتائج أي قيمة تقدم لها.  
-![](https://alioh.github.io/images/2019-3-11/supervised.jpg)  
+![](https://alioh.github.io/images/2019-3-11/supervised.png)  
 ينقسم التعليم الموجة إلى قسمين:
 - Classification التصنيف: يستخدم لتوقع الفئة التي تنتمي لها البيانات. أو للنتائج التي لها خيارين. مثلاً ما إذا كانت رسالة البريد الإلكتروني مزعجة أو لا.  
 - Regression الإنحدار: تستخدم لتوقع نتائج رقمية مثل أسعار المنازل.  
+
 لمزيد من المعلومات عن التعلم الموجَّه سبق أن شرحته بشكل مفصل [هنا](https://alioh.github.io/Machine-Learning-for-Everyone-3/).  
 
-##### التعلم غير الموجَّه Unsupervised Learning  
-في التعليم الغير موجَّه، توجد لدينا بيانات بدون نتائج، فتحتاج الآلة للتعلم بنفسها، وتوجد أكثر من طريقة مثل تقسيم وتجميع البيانات حسب تشابهها.  
+##### 2- التعلم غير الموجَّه Unsupervised Learning  
+في التعلم الغير موجَّه، توجد لدينا بيانات بدون نتائج، فتحتاج الآلة للتعلم بنفسها، وتوجد أكثر من طريقة مثل تقسيم وتجميع البيانات حسب تشابهها.  
 شرح أكثر تفصيل عن التعلم غير الموجَّه [هنا](https://alioh.github.io/Machine-Learning-for-Everyone-4/)  
 
-#### التعلم التعزيزي Reinforcement Learning  
-تتعلم الآلة هنا عن طريق عمل نشاطات أو Actions وتلقي نتائج من هذه النشاطات التي فعلتها.  
+##### 3- التعلم التعزيزي Reinforcement Learning  
+تتعلم الآلة عن طريق عمل نشاطات أو Actions وتلقي نتائج من هذه النشاطات التي فعلتها.  
 تم شرح التعلم التعزيزي بشكل مفصل في منشور سابق [هنا](https://alioh.github.io/Machine-Learning-for-Everyone-5/)  
 
 ------------
 
 ###### الفصل الأول - الدرس الثاني  
 ### الإنحدار الخطي Linear Regression
-![](https://alioh.github.io/images/2019-3-11/house.png)  [^1]
+![](https://alioh.github.io/images/2019-3-11/house.png) [^1]
 في الصورة السابقة نريد الإجابة على سؤال، كم سيكون سعر البيت، بعد مقارنة النتائج وتحديد حجم البيت مقارنة ببقية البيوت، كم تتوقع يكون سعره؟
-الإجابة 120 ألف، واجبنا عليه بواسطة رسم خط مناسب لكل النقاط (البيوت) التي لدينا في البيانات.
+الإجابة 120 ألف، وأجبنا عليه بواسطة رسم خط مناسب لكل النقاط (البيوت) التي لدينا في البيانات.
 
 توجد طريقتين لرسم خط بين النقاط، الأولى هي عبر إستخدام Tricks او طرق لتحريك الخط، والثانية عن طريق إستخدام Error Functions وهي طريقة أخرى لموازنة الخط.
 
-## الطريقة الأولى Tricks:
+### الطريقة الأولى Tricks
 الهدف من رسم الخط هو ان يكون قريب جداً إلى النقاط ومناسب لهم جميعاً، بالتأكيد توجد طرق كثيره لرسم الخط في حال كانت لدينا نقاط كثيره وقد يناسب بعض النقاط ولكن لن يناسبها جميعها، الهدف هنا رسم خط يناسب الجميع.
 ويوجد طريقتين لتحريك الخط [^2]:
 ![](https://alioh.github.io/images/2019-3-11/movingline.png)  
 
-### A- Absolute Trick  
+### 1- Absolute Trick  
 ![](https://alioh.github.io/images/2019-3-11/movingline1.png)  
 القيمة α هنا تعرف بالـ Learning rate. نقوم بتغيرة ليتغير مكان الخط.  
 ( If the point is below the line, the intercept decreases (subtract from w1 and w2); if the point has a negative x-value, the slope increases. )
@@ -70,7 +71,7 @@ y = -0.4x + 3.96
 ---------
 
 
-### B- الطريقة الثانية Gradient Descent
+### الطريقة الثانية Gradient Descent
 طريقة لرسم الخط، في كل مرة تحسب المسافة بين الخط والنقاط، النتيجة من هذه الحسبه هي ما يسمى بالـError وهو مجموع كامل المسافات بين كل نقطة والخط.  
 وهدف هذه الطريقة هي حسابه في كل مره والمحاولة ان تكون النتجية أقل ما يمكن.
 
@@ -109,7 +110,7 @@ Error = -2.8 - -4 = 1.2
 ### Linear Regression  
 اذا كان لدينا متغير Feature واحدة
 
-```python
+``python
 from sklearn.linear_model import LinearRegression
 import numpy as np
 import pandas as pd
@@ -119,13 +120,13 @@ bmi_life_data = pd.DataFrame.from_csv('bmi_and_life_expectancy.csv')
 bmi_life_model = LinearRegression()
 bmi_life_model.fit(bmi_life_data[['BMI']], bmi_life_data[['Life expectancy']])
 laos_life_exp = bmi_life_model.predict([[21.07931]])
-```
-x_values = المتغيرات التي نرغب التنبؤ بها
+``
+x_values = المتغيرات التي نرغب التنبؤ بها  
 y_values = النتيجة التي نتنبأ عنها
 
 
 ### Multiple Linear Regression  
-```python
+``python
 from sklearn.linear_model import LinearRegression
 from sklearn.datasets import load_boston
  
@@ -139,13 +140,12 @@ sample_house = [[2.29690000e-01, 0.00000000e+00, 1.05900000e+01, 0.00000000e+00,
                 6.32600000e+00, 5.25000000e+01, 4.35490000e+00, 4.00000000e+00, 2.77000000e+02,
                 1.86000000e+01, 3.94870000e+02, 1.09700000e+01]]
 prediction = model.predict(sample_house)
-```
+``
 
 
 ### Polynomial Regression  
 نستخدم Polynomial Features لأضافة المزيد من المتغيرات Features. [^3]
-```python
-# TODO: Add import statements
+``python
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -159,13 +159,13 @@ poly_feat = PolynomialFeatures(degree = 4)
 X_poly = poly_feat.fit_transform(X)
 
 poly_model = LinearRegression(fit_intercept = False).fit(X_poly, y)
-```
+``
 
 -------
 ### Regularization
 طريقة لإضافة المزيد من البيانات لحل مشكلة لدينا أو للتخلص من فرط التخصيص Overfitting [^4]
 
-```python
+``python
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -180,7 +180,7 @@ lasso_reg.fit(X,y)
 
 reg_coef = lasso_reg.coef_
 print(reg_coef)
-```
+``
 
 
 ### Feature Scaling  
@@ -188,8 +188,7 @@ print(reg_coef)
 - Standardizing: تستخدم عندما يكون لدينا الكثير من البيانات الشاذه.  
 - Normalizing: تحول فيها البيانات إلى ارقام من 0 إلى 1.  
 
-```python
-# TODO: Add import statements
+``python
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LinearRegression
@@ -210,7 +209,7 @@ lasso_reg.fit(X_scaled, y)
 
 reg_coef = lasso_reg.coef_
 print(reg_coef)
-```
+``
 
 ## نقطتين مهمه عن Linear Regression
 
