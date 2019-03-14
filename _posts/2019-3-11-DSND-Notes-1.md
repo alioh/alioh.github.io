@@ -115,7 +115,7 @@ from sklearn.linear_model import LinearRegression
 import numpy as np
 import pandas as pd
 
-bmi_life_data = pd.DataFrame.from_csv('bmi_and_life_expectancy.csv')
+bmi_life_data = pd.DataFrame.from_csv('data.csv')
 
 bmi_life_model = LinearRegression()
 bmi_life_model.fit(x_values, y_values)
@@ -161,7 +161,7 @@ X_poly = poly_feat.fit_transform(X)
 poly_model = LinearRegression(fit_intercept = False).fit(X_poly, y)
 ```
 
--------
+
 ### Regularization
 طريقة لإضافة المزيد من البيانات لحل مشكلة لدينا أو للتخلص من فرط التخصيص Overfitting [^4]
 
@@ -184,7 +184,7 @@ print(reg_coef)
 
 
 ### Feature Scaling  
-طريقة لإعادة ترتيب البيانات وترتيبها حسب تشابهها، و تستخدم أيضاً للتخلص من البيانات الشاذة. [^5]
+طريقة لإعادة ترتيب البيانات حسب تشابهها، و تستخدم أيضاً للتخلص من البيانات الشاذة. [^5]
 - Standardizing: تستخدم عندما يكون لدينا الكثير من البيانات الشاذه.  
 - Normalizing: تحول فيها البيانات إلى ارقام من 0 إلى 1.  
 
