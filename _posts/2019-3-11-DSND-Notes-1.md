@@ -118,7 +118,7 @@ import pandas as pd
 bmi_life_data = pd.DataFrame.from_csv('bmi_and_life_expectancy.csv')
 
 bmi_life_model = LinearRegression()
-bmi_life_model.fit(bmi_life_data[['BMI']], bmi_life_data[['Life expectancy']])
+bmi_life_model.fit(x_values, y_values)
 laos_life_exp = bmi_life_model.predict([[21.07931]])
 ```
 x_values = المتغيرات التي نرغب التنبؤ بها  
