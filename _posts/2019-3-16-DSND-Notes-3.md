@@ -62,7 +62,8 @@ count_vector = CountVectorizer()
 training_data = count_vector.fit_transform(X_train)
 testing_data = count_vector.transform(X_test).toarray()
 ```
-بعد تعديلها، نستخدم المصنف (Classifier) MultinomialNB كونه مناسب للبيانات المفصلة. بينما Gaussian Naive Bayes منسابة للبيانات الرقمية المتسلسلة.
+بعد تعديلها، نستخدم المصنف (Classifier) MultinomialNB كونه مناسب للبيانات المفصلة. بينما Gaussian Naive Bayes منسابة للبيانات الرقمية المتسلسلة.  
+
 ```python
 from sklearn.naive_bayes import MultinomialNB
 naive_bayes = MultinomialNB()
