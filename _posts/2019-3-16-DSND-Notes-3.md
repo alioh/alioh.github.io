@@ -10,7 +10,7 @@ title: ملخص كورس علم البيانات - 3
 من اشهر استخداماتها في تحديد ما اذا كانت رسالة البريد الإلكتروني مزعجة أو لا. ارفقت في اسفل الصفحة مصادر لمعرفة المسائل الرياضية خلف هذه الخوارزمية. [^1] [^2]
 More info in jupyter notebook file.  
 
-#### Bag of words  
+### Bag of words  
 استخدمت في مودل تحديد الرسائل اذا كانت مزعجة أو لا. وهي نفس الفكرة التي شرحت سابقاً في Decision Tree: One-hot encode.  
 هنا الطريقة تكون بتحويل كل كلمة إلى عامود. وفي كل مرة تتكرر الكلمة يضاف 1 إلى ذلك العامود، مثال لدينا الجمل التالية:  
 ['Hello, how are you!',  
@@ -45,7 +45,7 @@ frequency_matrix = pd.DataFrame(doc_array)
 frequency_matrix.columns = count_vector.get_feature_names()
 frequency_matrix
 ```
-#### خطوات تشكيل المودل  
+### خطوات تشكيل المودل  
 - تقسيم البيانات إلى بيانات أختبار وبيانات تدريب train_test_split  
 ```python
 X_train, X_test, y_train, y_test = train_test_split(df['sms_message'], 
@@ -72,15 +72,17 @@ naive_bayes.fit(training_data, y_train)
 predictions = naive_bayes.predict(testing_data)
 ```
 
-#### تقييم المودل  
+### تقييم المودل  
 - **Accuracy**: يحدد عدد المرات التي كانت إجابة المُصنف (Classifier) صحيحه.  
 **Accuracy** measures how often the classifier makes the correct prediction. It’s the ratio of the number of correct predictions to the total number of predictions (the number of test data points).  
 - **Precision**: يحدد نسبة مدى دقة المُصنف في توقعاته الصحيحه.  
 **Precision** tells us what proportion of messages we classified as spam, actually were spam.
-It is a ratio of true positives(words classified as spam, and which are actually spam) to all positives(all words classified as spam, irrespective of whether that was the correct classification), in other words it is the ratio of `[True Positives/(True Positives + False Positives)]`  
+It is a ratio of true positives(words classified as spam, and which are actually spam) to all positives(all words classified as spam, irrespective of whether that was the correct classification), in other words it is the ratio of  
+`[True Positives/(True Positives + False Positives)]`  
 - **Recall(sensitivity)**: يحدد نسبة البيانات التي حددناها نحن كمزعجه (في مثال رسائل البريد الإلكتروني)
 **Recall(sensitivity)** tells us what proportion of messages that actually were spam were classified by us as spam.
-It is a ratio of true positives(words classified as spam, and which are actually spam) to all the words that were actually spam, in other words it is the ratio of `[True Positives/(True Positives + False Negatives)]`  
+It is a ratio of true positives(words classified as spam, and which are actually spam) to all the words that were actually spam, in other words it is the ratio of  
+`[True Positives/(True Positives + False Negatives)]`  
 - **F1 Score** = 2 * ( (*Precision* * *Recall*) / (*Precision* + *Recall*) ). والنتيجه هي دقة نتائج الإختبار
 
 ```python
