@@ -43,6 +43,11 @@ train_test_split [^4]
 - train_size: نفس تعريف test_size ولكن لبيانات التدريب، ولا يحتاج لتعريفة وإعطائة قيمة اذا تم تعريف وإعطاء قيمة لحجم البيانات المراد إختبارها.
 - random_state: "randomstate is basically used for reproducing your problem the same every time it is run. If you do not use a randomstate in train_test_split, every time you make the split you might get a different set of train and test data points and will not help you in debugging in case you get an issue." [^5]
 
+  
+-----
+[العودة إلى ملخص كورس علم البيانات - 1](https://alioh.github.io/DSND-Notes-1/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 3](https://alioh.github.io/DSND-Notes-3)  
+  
+  
 
 [^1]: <https://towardsdatascience.com/what-the-hell-is-perceptron-626217814f53>
 [^2]: <http://www.saedsayad.com/artificial_neural_network_bkp.htm>

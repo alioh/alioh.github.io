@@ -92,7 +92,12 @@ print('Precision score: ', format(precision_score(y_test, predictions)))
 print('Recall score: ', format(recall_score(y_test, predictions)))
 print('F1 score: ', format(f1_score(y_test, predictions)))
 ```
-
+  
+  
+-----
+[العودة إلى ملخص كورس علم البيانات - 2](https://alioh.github.io/DSND-Notes-2/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 4](https://alioh.github.io/DSND-Notes-4)  
+  
+  
 
 
 [^1]: <https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/>

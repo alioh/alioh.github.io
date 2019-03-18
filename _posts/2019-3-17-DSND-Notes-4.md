@@ -65,7 +65,12 @@ acc = accuracy_score(y, y_pred)
 ```
 بعد التشغيل
 ![](https://alioh.github.io/images/2019-3-17/data1.png)  
-
+  
+  
+-----
+[العودة إلى ملخص كورس علم البيانات - 3](https://alioh.github.io/DSND-Notes-3/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 5](https://alioh.github.io/DSND-Notes-5)  
+  
+  
 [^1]: <https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/>
 [^2]: <https://medium.com/all-things-ai/in-depth-parameter-tuning-for-svc-758215394769>
 [^3]: <https://www.kdnuggets.com/2016/06/select-support-vector-machine-kernels.html>
