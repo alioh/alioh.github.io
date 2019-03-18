@@ -64,7 +64,7 @@ y_pred = model.predict(X)
 acc = accuracy_score(y, y_pred)
 ```
 بعد التشغيل
-![](https://alioh.github.io/images/2019-3-17/data1.png)  
+![](https://alioh.github.io/images/2019-3-17/data2.png)  
   
   
 -----
