@@ -18,25 +18,25 @@ Small margin > large error
 Large margin > small error  
 وللتقليل من الاخطاء نستخدم Gradient Descent  
 
-#### Hyperparameters المتغيرات [^2]  
+##### Hyperparameters المتغيرات [^2]  
 
-- **The C parameter**  
+### - The C parameter  
 ![](https://alioh.github.io/images/2019-3-17/c.png)  
 * Large C: Focus on classifying points.  
 * Small C: Focus on a large margin.  
 
-- **Kernels** [^3] [^4]  
+### - Kernels [^3] [^4]  
 ![](https://alioh.github.io/images/2019-3-17/kernels.png)  
 * Polynomial Kernel  
 * RBF Kernel  
 
-- **Gamma**  
+### - Gamma  
 ![](https://alioh.github.io/images/2019-3-17/gamma.png)  
 للبيانات غير الخطية
 * Large values of gamma tend to overfit.  
 * Small values of gamma tend to underfit.  
 
-- **Degree**  
+### - Degree  
 ![](https://alioh.github.io/images/2019-3-17/degree.png)  
 تستخدم فقط في Polynomial Kernel.  
 
