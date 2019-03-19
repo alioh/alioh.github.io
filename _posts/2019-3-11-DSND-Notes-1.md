@@ -9,9 +9,9 @@ title: ملخص كورس علم البيانات - 1
 - Machine Learning Bird's Eye View
 - Linear Regression
 
-###### الفصل الأول - التعلم الموجَّه (Supervised Learning)  
+##### الفصل الأول - التعلم الموجَّه Supervised Learning  
 
-### الدرس الأول - معلومات عامة عن تعلم الآلة Machine Learning Bird's Eye View
+#### الدرس الأول - معلومات عامة عن تعلم الآلة Machine Learning Bird's Eye View  
 
 توجد ثلاث انواع من تعلم الآلة
 
