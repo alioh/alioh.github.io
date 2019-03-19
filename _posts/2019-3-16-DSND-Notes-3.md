@@ -5,8 +5,8 @@ title: ملخص كورس علم البيانات - 3
 
 هذا الملخص سيكون عن خوارزمية بايز البسيط Naive Bayes، فكرتها وإستخدامتها، طريقة إٍستخدامها في مكتبة scikit-learn وبعض المتغيرات المهمه فيها، وطريقة تقييم المودل ونتائجه.  
 
-###### الفصل الأول - الدرس الخامس  
-### خوارزمية بايز البسيط Naive Bayes  
+##### الفصل الأول - التعلم الموجَّه Supervised Learning  
+##### الدرس الخامس - خوارزمية بايز البسيط Naive Bayes  
 من اشهر استخداماتها في تحديد ما اذا كانت رسالة البريد الإلكتروني مزعجة أو لا. ارفقت في اسفل الصفحة مصادر لمعرفة المسائل الرياضية خلف هذه الخوارزمية. [^1] [^2]
 More info in jupyter notebook file.  
 
@@ -83,7 +83,8 @@ It is a ratio of true positives(words classified as spam, and which are actually
 **Recall(sensitivity)** tells us what proportion of messages that actually were spam were classified by us as spam.
 It is a ratio of true positives(words classified as spam, and which are actually spam) to all the words that were actually spam, in other words it is the ratio of  
 `[True Positives/(True Positives + False Negatives)]`  
-- **F1 Score** = 2 * ( (*Precision* * *Recall*) / (*Precision* + *Recall*) ). والنتيجه هي دقة نتائج الإختبار
+- **F1 Score**: وتعني النتيجة الكاملة لكفائة ودقة المودل. في هذا المثالث النتيجة كالتالي:  
+`F1 Scode = 2 * ( (*Precision* * *Recall*) / (*Precision* + *Recall*) )`
 
 ```python
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score

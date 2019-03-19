@@ -8,36 +8,35 @@ title: ملخص كورس علم البيانات - 4
   
 
 
-
-###### الفصل الأول - الدرس السادس  
-### آلة المتجهات الداعمة Support Vector Machines [^1]  
+##### الفصل الأول - التعلم الموجَّه Supervised Learning  
+##### الدرس السادس - آلة المتجهات الداعمة Support Vector Machines [^1]  
 تعتبر من أكثر الخوارزميات استخداماً في التصنيف، وتقوم الخوارزمية بالبحث عن افضل طريقة لتقسيم البيانات. بحيث تحاول تكوين أكبر مسافه بين القيم.  
 ![](https://alioh.github.io/images/2019-2-11/1.jpg)  
 
-#### Error Function  
+##### Error Function  
 Small margin > large error  
 Large margin > small error  
 وللتقليل من الاخطاء نستخدم Gradient Descent  
 
-### Hyperparameters [^2]  
+#### Hyperparameters المتغيرات [^2]  
 
-#### - The C parameter  
+- **The C parameter**  
 ![](https://alioh.github.io/images/2019-3-17/c.png)  
 * Large C: Focus on classifying points.  
 * Small C: Focus on a large margin.  
 
-#### - Kernels [^3] [^4]  
+- **Kernels** [^3] [^4]  
 ![](https://alioh.github.io/images/2019-3-17/kernels.png)  
 * Polynomial Kernel  
 * RBF Kernel  
 
-#### - Gamma  
+- **Gamma**  
 ![](https://alioh.github.io/images/2019-3-17/gamma.png)  
 للبيانات غير الخطية
 * Large values of gamma tend to overfit.  
 * Small values of gamma tend to underfit.  
 
-#### - Degree  
+- **Degree**  
 ![](https://alioh.github.io/images/2019-3-17/degree.png)  
 تستخدم فقط في Polynomial Kernel.  
 

@@ -69,7 +69,7 @@ acc = accuracy_score(y, y_pred)
   
   
 -----
-[العودة إلى ملخص كورس علم البيانات - 3](https://alioh.github.io/DSND-Notes-3/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 5](https://alioh.github.io/DSND-Notes-5)  
+[العودة إلى ملخص كورس علم البيانات - 4](https://alioh.github.io/DSND-Notes-4/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 6](https://alioh.github.io/DSND-Notes-6)  
   
   
 [^1]: <https://www.analyticsvidhya.com/blog/2017/09/understaing-support-vector-machine-example-code/>
