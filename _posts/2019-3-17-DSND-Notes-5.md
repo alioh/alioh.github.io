@@ -1,7 +1,6 @@
 ---  
 layout: post
 title: ملخص كورس علم البيانات - 5
-published: false
 ---  
 
 هذا المخلص سيكون عن Ensemble Methods وكيف تُحسن من نتائج المودل لدينا.  
