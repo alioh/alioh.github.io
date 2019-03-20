@@ -44,10 +44,10 @@ title: ملخص كورس علم البيانات - 2
 
 - **train_test_split** [^4]  
 تستخدم لتقسيم البيانات إلى بيانات للتدريب وأخرى للإختبار، بعض المتغيرات المهمه فيها:
-- **test_size**: حجم البيانات المراد إختبارها، اذا اعطيت 0.5، فانها تأخذ 50% من البيانات.
-- **train_size**: نفس تعريف test_size ولكن لبيانات التدريب، ولا يحتاج لتعريفة وإعطائة قيمة اذا تم تعريف وإعطاء قيمة لحجم البيانات المراد إختبارها.
-- **random_state**: عند تخصيص هذا المتغير، لا تتغير لدينا البيانات المفصولة في كل مرة نشغل فيها المودل. عندما لا يحدد، في كل مرة نشغل فيها المودل، تتغير لنا البيانات المفصلة لدينا بين البيانات التي تدرب والتي تُختَبر.  
-"randomstate is basically used for reproducing your problem the same every time it is run. If you do not use a randomstate in train_test_split, every time you make the split you might get a different set of train and test data points and will not help you in debugging in case you get an issue." [^5]
+    - **test_size**: حجم البيانات المراد إختبارها، اذا اعطيت 0.5، فانها تأخذ 50% من البيانات.  
+    - **train_size**: نفس تعريف test_size ولكن لبيانات التدريب، ولا يحتاج لتعريفة وإعطائة قيمة اذا تم تعريف وإعطاء قيمة لحجم البيانات المراد إختبارها.  
+    - **random_state**: عند تخصيص هذا المتغير، لا تتغير لدينا البيانات المفصولة في كل مرة نشغل فيها المودل. عندما لا يحدد، في كل مرة نشغل فيها المودل، تتغير لنا البيانات المفصلة لدينا بين البيانات التي تدرب والتي تُختَبر.  
+    "randomstate is basically used for reproducing your problem the same every time it is run. If you do not use a randomstate in train_test_split, every time you make the split you might get a different set of train and test data points and will not help you in debugging in case you get an issue." [^5]
 
   
 -----

@@ -63,5 +63,3 @@ predAdaBoos = modelAdaBoost.predict(testing_data)
   
 [^1]: <https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f/>
 [^2]: <https://medium.com/greyatom/a-quick-guide-to-boosting-in-ml-acf7c1585cb5>
-[^3]: <https://www.kdnuggets.com/2016/06/select-support-vector-machine-kernels.html>
-[^4]: <https://towardsdatascience.com/support-vector-machines-svm-c9ef22815589>

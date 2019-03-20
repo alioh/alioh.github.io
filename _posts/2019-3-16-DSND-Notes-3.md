@@ -83,7 +83,7 @@ It is a ratio of true positives(words classified as spam, and which are actually
 **Recall(sensitivity)** tells us what proportion of messages that actually were spam were classified by us as spam.
 It is a ratio of true positives(words classified as spam, and which are actually spam) to all the words that were actually spam, in other words it is the ratio of  
 `[True Positives/(True Positives + False Negatives)]`  
-- **F1 Score**: وتعني النتيجة الكاملة لكفائة ودقة المودل. في هذا المثالث النتيجة كالتالي:  
+- **F1 Score**: وتعني النتيجة الكاملة لكفائة ودقة المودل. في هذا المثال النتيجة كالتالي:  
 `F1 Scode = 2 * ( (*Precision* * *Recall*) / (*Precision* + *Recall*) )`
 
 ```python
