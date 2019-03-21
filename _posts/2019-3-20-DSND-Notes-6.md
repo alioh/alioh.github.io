@@ -44,7 +44,7 @@ acc = accuracy_score(y_train, y_pred)
 ![](https://alioh.github.io/images/2019-3-20/Confusion-matrix-example.png)  
 اللون الأخضر في الجدول يعني البيانات التي تم توقعها وكانت نتائجها صحيحه، اللون الأحمر يعني نتائج كان توقعها خاطئ.  
   
-- **Accuracy**: سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-2)وهو يحدد عدد المرات التي كانت إجابة المُصنف (Classifier) صحيحه. وطريقة حسابه هي تابعه لل **Confusion Matrix**، وطريقة حسابه كالتالي:  
+- **Accuracy**: سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-2)، وهو يحدد عدد المرات التي كانت إجابة المُصنف (Classifier) صحيحه. وطريقة حسابه هي تابعه لل **Confusion Matrix**، وطريقة حسابه كالتالي:  
 `[True Positives + True Negaitve/(Total Data)]`  
 
 - **Precision**: سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-2)، وقلنا انه يحدد نسبة مدى دقة المُصنف في توقعاته الصحيحه.  
@@ -54,7 +54,7 @@ acc = accuracy_score(y_train, y_pred)
 `[True Positives/(True Positives + False Negatives)]`  
 
 - **F1 Score**: وأيضاً سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-2)، وهي النتيجة الكاملة لكفائة ودقة المودل.  
-`F1 Scode = 2 * ( (*Precision* * *Recall*) / (*Precision* + *Recall*) )`  
+`F1 Scode = 2 * ( (Precision * Recall) / (Precision + Recall) )`  
 ويفضل إستخدامة بدل **Percision** و **Recall** كونهما أحياناً في بعض البيانات يقدما نتائج خاطئة ولا تدل فعلاً عن جودة المودل. [^1] [^2]  
 
 - **F-beta**: معلومات مفصلة عنها [هنا](http://www.marcelonet.com/snippets/machine-learning/evaluation-metrix/f-beta-score)، ولكن ببساطة إذا اردنا ان نكرز أكثر على **Precision**، نعطيها رقماً بين 0 و 1، وإذا أردناها ان تركز على **Recall** أكثر، فنعطيها رقماً أعلى من 1.  
