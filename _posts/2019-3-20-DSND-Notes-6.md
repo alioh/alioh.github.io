@@ -3,7 +3,7 @@ layout: post
 title: ملخص كورس علم البيانات - 6
 ---  
 
-المخلص يغطي طريقة تقييم النموذج، مدى كفائته وكيف نحسنه.  
+المخلص يغطي طريقة تقييم النموذج، مدى كفائته وكيفية قياس أدائة.  
   
   
 
@@ -64,11 +64,30 @@ acc = accuracy_score(y_train, y_pred)
 
 ##### قياسات الإنحدار الخطي Regression Metrics  
 
-سبق أن شرحنا هذه النقاط في [الملخص الأول](https://alioh.github.io/DSND-Notes-1) وهي:
+سبق أن شرحت هذه النقاط في [الملخص الأول](https://alioh.github.io/DSND-Notes-1) وهي:
 - **Mean Absolute Error**
 - **Mean Squared Error**
 
-
+##### اسئلة وأجوبة  
+- When can you use the model
+    - decision trees? both **regression** and **classification**
+    - random forest? both **regression** and **classification**
+    - adaptive boosting? both **regression** and **classification**
+    - logistic regression? **classification**
+    - linear regression? **regression**
+- Which metric we should use if we want to:
+    - We have imbalanced classes, which metric do we definitely not want to use? **accuracy**, **naive-bayes**
+    - We really want to make sure the positive cases are all caught even if that means we identify some negatives as positives? **recall**, **svm**
+    - When we identify something as positive, we want to be sure it is truly positive? **precision**, **ada-boost**
+    - We care equally about identifying positive and negative cases? **f1-score**, **random-forest**
+- Which model for each metric:
+    - precision? **classification**
+    - recall? **classification**
+    - accuracy? **classification**
+    - r2_score? **regression**
+    - mean_squared_error? **regression**
+    - area_under_curve? **classification**
+    - mean_absolute_area? **regression**
 
 -----
 [العودة إلى ملخص كورس علم البيانات - 5](https://alioh.github.io/DSND-Notes-5/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 7](https://alioh.github.io/DSND-Notes-7)  
