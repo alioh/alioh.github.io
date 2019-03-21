@@ -22,7 +22,7 @@ title: ملخص كورس علم البيانات - 2
 خوارزمية شجرة القرار ممكن ان تعمل على البيانات الرقمية والفئوية.  
 تم شرحها بتفصيل اكثر [هنا](https://alioh.github.io/Machine-Learning-for-Everyone-3/).  
 
-##### متغيرات الفصل في شجرة القرار
+##### متغيرات شجرة القرار Hyperparameters  
 - **عمق الفصل أو مداه Maximum Depth**:  
 (max_depth: The maximum number of levels in the tree)  
 ![](https://alioh.github.io/images/2019-2-11/11.png)  
