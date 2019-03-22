@@ -129,7 +129,7 @@ train_sizes, train_scores, test_scores = learning_curve(
     estimator, X, y, cv=None, n_jobs=1, train_sizes=np.linspace(.1, 1.0, num_trainings))
 ```
 والمتغيرات فيه هي:
-- estimator: وهي الخوارزمية التي استخدمانها لإنشاء المودل. مثلاً LogisticRegression().  
+- estimator: وهي الخوارزمية التي استخدمانها لإنشاء المودل. مثلاً LogisticRegression.  
 - X, y: وهي البيانات.  
 - train_sizes: حجم كل جزء من البيانات التي ستستخدم في الرسم البياني.  
 - train_scores: درجة بيانات التدريب كل جزء من البيانات على الخوارزمية التي نختبرها فيها.  
@@ -160,6 +160,12 @@ DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
             min_weight_fraction_leaf=0.0, presort=False, random_state=42,
             splitter='best')
 ```
+
+##### أي خوارزمية أختار؟  
+عند مواجهة أي مشكلة يجب عليك تجربة أكثر من خوارزمية وعرض النتائج لتحديد الأفضل بينهم، الصور التالية تعطي اقتراحات متى وأي خوارزمية تختار: [^14]  
+![](https://alioh.github.io/images/2019-3-20/ml_map.png)  
+
+
 -----
 [العودة إلى ملخص كورس علم البيانات - 5](https://alioh.github.io/DSND-Notes-5/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 7](https://alioh.github.io/DSND-Notes-7)  
   
@@ -177,3 +183,4 @@ DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
 [^11]: <https://www.toptal.com/machine-learning/supervised-machine-learning-algorithms>
 [^12]: <https://machinelearningmastery.com/how-to-tune-algorithm-parameters-with-scikit-learn/>
 [^13]: <https://chrisalbon.com/machine_learning/model_evaluation/cross_validation_parameter_tuning_grid_search/>
+[^14]: <https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html>
