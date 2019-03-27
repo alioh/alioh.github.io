@@ -162,7 +162,7 @@ DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
 ```
 
 ##### أي خوارزمية أختار؟  
-عند مواجهة أي مشكلة يجب عليك تجربة أكثر من خوارزمية وعرض النتائج لتحديد الأفضل بينهم، الصور التالية تعطي اقتراحات متى وأي خوارزمية تختار: [^14]  
+عند مواجهة أي مشكلة يجب عليك تجربة أكثر من خوارزمية وعرض النتائج لتحديد الأفضل بينهم، الصور التالية تعطي اقتراحات متى وأي خوارزمية تختار: [^14] [^15]  
 ![](https://alioh.github.io/images/2019-3-20/ml_map.png)  
 ![](https://alioh.github.io/images/2019-3-20/SLAT.png)  
 
@@ -185,3 +185,4 @@ DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
 [^12]: <https://machinelearningmastery.com/how-to-tune-algorithm-parameters-with-scikit-learn/>
 [^13]: <https://chrisalbon.com/machine_learning/model_evaluation/cross_validation_parameter_tuning_grid_search/>
 [^14]: <https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html>
+[^15]: <https://vinodsblog.com/2018/04/02/supervised-machine-learning-insider-scoop-for-labeled-data/>
