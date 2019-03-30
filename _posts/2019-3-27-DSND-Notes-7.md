@@ -73,5 +73,5 @@ def cross_entropy(Y, P):
 [العودة إلى ملخص كورس علم البيانات - 6](https://alioh.github.io/DSND-Notes-6/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 8](https://alioh.github.io/DSND-Notes-8)  
   
   
-[^1]: <https://www.youtube.com/watch?v=lvNdl7yg4Pg>
-[^2]: <https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1>
+[^1]: [Youtube](https://www.youtube.com/watch?v=lvNdl7yg4Pg)
+[^2]: [TowardsDataScience](https://towardsdatascience.com/probability-concepts-explained-maximum-likelihood-estimation-c7b4342fdbb1)

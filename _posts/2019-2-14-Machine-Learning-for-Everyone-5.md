@@ -66,7 +66,7 @@ title: تعلم الآلة للجميع - 5
 - [تعلم الآلة للجميع - 5](https://alioh.github.io/Machine-Learning-for-Everyone-5/)  
 
 
-[^1]: <https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419>
-[^2]: <https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe>
-[^3]: <https://www.youtube.com/watch?v=aCEvtRtNO-M>
-[^4]: <https://www.inf.ethz.ch/personal/cellier/MS/soto_ms.html>
+[^1]: [FreeCodeCamp](https://medium.freecodecamp.org/an-introduction-to-reinforcement-learning-4339519de419)
+[^2]: [FreeCodeCamp](https://medium.freecodecamp.org/diving-deeper-into-reinforcement-learning-with-q-learning-c18d0db58efe)
+[^3]: [Youtube](https://www.youtube.com/watch?v=aCEvtRtNO-M)
+[^4]: [inf.ethz.ch](https://www.inf.ethz.ch/personal/cellier/MS/soto_ms.html)

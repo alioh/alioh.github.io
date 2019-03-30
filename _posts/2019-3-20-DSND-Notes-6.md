@@ -171,18 +171,18 @@ DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=4,
 [العودة إلى ملخص كورس علم البيانات - 5](https://alioh.github.io/DSND-Notes-5/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 7](https://alioh.github.io/DSND-Notes-7)  
   
   
-[^1]: <https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9>
-[^2]: <https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/>
-[^3]: <https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5>
-[^4]: <https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/>
-[^5]: <https://machinelearningmedium.com/2017/09/08/overfitting-and-regularization/>
-[^6]: <https://www.codeproject.com/articles/1146582/WebControls/%2FArticles%2F1146582%2FIntroduction-to-Machine-Learning>
-[^7]: <https://www.norwegiancreations.com/2018/10/artificial-intelligence-machine-learning-from-supervised-learning/>
-[^8]: <https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6>
-[^9]: <https://www.analyticsvidhya.com/blog/2018/05/improve-model-performance-cross-validation-in-python-r/>
-[^10]: <https://chrisalbon.com/machine_learning/model_evaluation/plot_the_learning_curve/>
-[^11]: <https://www.toptal.com/machine-learning/supervised-machine-learning-algorithms>
-[^12]: <https://machinelearningmastery.com/how-to-tune-algorithm-parameters-with-scikit-learn/>
-[^13]: <https://chrisalbon.com/machine_learning/model_evaluation/cross_validation_parameter_tuning_grid_search/>
-[^14]: <https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html>
-[^15]: <https://vinodsblog.com/2018/04/02/supervised-machine-learning-insider-scoop-for-labeled-data/>
+[^1]: [TowardsDataScience](https://towardsdatascience.com/accuracy-precision-recall-or-f1-331fb37c5cb9)
+[^2]: [Exsilio](https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/)
+[^3]: [TowardsDataScience](https://towardsdatascience.com/understanding-auc-roc-curve-68b2303cc9c5)
+[^4]: [MachineLearningMastery](https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/)
+[^5]: [MachineLearningMedium](https://machinelearningmedium.com/2017/09/08/overfitting-and-regularization/)
+[^6]: [codeproject](https://www.codeproject.com/articles/1146582/WebControls/%2FArticles%2F1146582%2FIntroduction-to-Machine-Learning)
+[^7]: [NorwegianCreations](https://www.norwegiancreations.com/2018/10/artificial-intelligence-machine-learning-from-supervised-learning/)
+[^8]: [TowardsDataScience](https://towardsdatascience.com/train-test-split-and-cross-validation-in-python-80b61beca4b6)
+[^9]: [AnalyticsVidhya](https://www.analyticsvidhya.com/blog/2018/05/improve-model-performance-cross-validation-in-python-r/)
+[^10]: [ChrisAlbon](https://chrisalbon.com/machine_learning/model_evaluation/plot_the_learning_curve/)
+[^11]: [Toptal](https://www.toptal.com/machine-learning/supervised-machine-learning-algorithms)
+[^12]: [MachineLearningMastery](https://machinelearningmastery.com/how-to-tune-algorithm-parameters-with-scikit-learn/)
+[^13]: [ChrisAlbon](https://chrisalbon.com/machine_learning/model_evaluation/cross_validation_parameter_tuning_grid_search/)
+[^14]: [scikit-learn](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
+[^15]: [VinodsBlog](https://vinodsblog.com/2018/04/02/supervised-machine-learning-insider-scoop-for-labeled-data/)

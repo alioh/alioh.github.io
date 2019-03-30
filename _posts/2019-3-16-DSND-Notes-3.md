@@ -101,5 +101,5 @@ print('F1 score: ', format(f1_score(y_test, predictions)))
   
 
 
-[^1]: <https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/>
-[^2]: <https://www.saedsayad.com/naive_bayesian.htm>
+[^1]: [AnalyticsVidhya](https://www.analyticsvidhya.com/blog/2017/09/naive-bayes-explained/)
+[^2]: [SaedSayad](https://www.saedsayad.com/naive_bayesian.htm)

@@ -55,8 +55,8 @@ title: ملخص كورس علم البيانات - 2
   
   
 
-[^1]: <https://towardsdatascience.com/what-the-hell-is-perceptron-626217814f53>
-[^2]: <http://www.saedsayad.com/artificial_neural_network_bkp.htm>
-[^3]: <https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f>
-[^4]: <https://medium.com/@contactsunny/how-to-split-your-dataset-to-train-and-test-datasets-using-scikit-learn-e7cf6eb5e0d>
-[^5]: <https://www.kaggle.com/questions-and-answers/49890>
+[^1]: [TowardsDataScience](https://towardsdatascience.com/what-the-hell-is-perceptron-626217814f53)
+[^2]: [SaedSayad](http://www.saedsayad.com/artificial_neural_network_bkp.htm)
+[^3]: [HackerNoon](https://hackernoon.com/what-is-one-hot-encoding-why-and-when-do-you-have-to-use-it-e3c6186d008f)
+[^4]: [ContactSunny](https://medium.com/@contactsunny/how-to-split-your-dataset-to-train-and-test-datasets-using-scikit-learn-e7cf6eb5e0d)
+[^5]: [Kaggle](https://www.kaggle.com/questions-and-answers/49890)

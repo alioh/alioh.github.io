@@ -39,10 +39,10 @@ title: ملخص كورس علم البيانات - 8
 [العودة إلى ملخص كورس علم البيانات - 7](https://alioh.github.io/DSND-Notes-7/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 9](https://alioh.github.io/DSND-Notes-9)  
   
   
-[^1]: <https://towardsdatascience.com/gradient-descent-in-a-nutshell-eaf8c18212f0>
-[^2]: <https://visualstudiomagazine.com/articles/2013/05/01/neural-network-feed-forward.aspx>
-[^3]: <https://towardsdatascience.com/early-stopping-2f92c29ce0ae>
-[^4]: <https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/>
-[^5]: <https://link.medium.com/tLHkn0CZHT>
-[^6]: <https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d>
+[^1]: [TowardsDataScience](https://towardsdatascience.com/gradient-descent-in-a-nutshell-eaf8c18212f0)
+[^2]: [VisualStudioMagazine](https://visualstudiomagazine.com/articles/2013/05/01/neural-network-feed-forward.aspx)
+[^3]: [TowardsDataScience](https://towardsdatascience.com/early-stopping-2f92c29ce0ae)
+[^4]: [AnalyticsVidhya](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/)
+[^5]: [Amarbudhiraja](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
+[^6]: [TowardsDataScience](https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d)
 [^7]: [VisualStudioMagazine](https://visualstudiomagazine.com/articles/2017/08/01/neural-network-momentum.aspx)

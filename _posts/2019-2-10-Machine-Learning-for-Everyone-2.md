@@ -59,9 +59,9 @@ title: تعلم الآلة للجميع - 2
   
 
 
-[^1]: <https://www.futurice.com/blog/ai-machine-learning-and-deep-learning-explained/>
-[^2]: <https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/>
-[^3]: <https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab>
-[^4]: <https://medium.com/@gowthamy/machine-learning-supervised-learning-vs-unsupervised-learning-f1658e12a780>
-[^5]: <https://medium.com/machine-learning-for-humans/unsupervised-learning-f45587588294>
-[^6]: <https://energyanalyst.co.uk/applying-machine-learning-to-the-electricity-industry/>
+[^1]: [Futurice](https://www.futurice.com/blog/ai-machine-learning-and-deep-learning-explained/)
+[^2]: [MachineLearningMastery](https://machinelearningmastery.com/a-tour-of-machine-learning-algorithms/)
+[^3]: [TowardsDataScience](https://towardsdatascience.com/machine-learning-for-beginners-d247a9420dab)
+[^4]: [Gowthamy](https://medium.com/@gowthamy/machine-learning-supervised-learning-vs-unsupervised-learning-f1658e12a780)
+[^5]: [Machine-Learning-For-Humans](https://medium.com/machine-learning-for-humans/unsupervised-learning-f45587588294)
+[^6]: [EnergyAnalyst](https://energyanalyst.co.uk/applying-machine-learning-to-the-electricity-industry/)

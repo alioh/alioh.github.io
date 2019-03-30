@@ -224,9 +224,9 @@ print(reg_coef)
 
 
 
-[^1]: <https://medium.com/@elevenching/machine-learning-introduction-d2a91294667e>
-[^2]: <https://towardsdatascience.com/supervised-learning-basics-of-linear-regression-1cbab48d0eba>
-[^3]: <https://stats.stackexchange.com/questions/58739/polynomial-regression-using-scikit-learn>
-[^4]: <https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a>
-[^5]: <https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html>
-[^6]: <http://r-statistics.co/Outlier-Treatment-With-R.html>
+[^1]: [elevenching](https://medium.com/@elevenching/machine-learning-introduction-d2a91294667e)
+[^2]: [TowardsDataScience](https://towardsdatascience.com/supervised-learning-basics-of-linear-regression-1cbab48d0eba)
+[^3]: [StackExchange](https://stats.stackexchange.com/questions/58739/polynomial-regression-using-scikit-learn>)
+[^4]: [TowardsDataScience](https://towardsdatascience.com/regularization-in-machine-learning-76441ddcf99a)
+[^5]: [ScikitLearn](https://scikit-learn.org/stable/auto_examples/preprocessing/plot_scaling_importance.html)
+[^6]: [R-Statistics](http://r-statistics.co/Outlier-Treatment-With-R.html)

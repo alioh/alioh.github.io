@@ -77,7 +77,7 @@ title: تعلم الآلة للجميع - 4
   
 
 
-[^1]: <https://uxdesign.cc/an-intro-to-machine-learning-for-designers-5c74ba100257>
-[^2]: <https://towardsdatascience.com/clustering-unsupervised-learning-788b215b074b>
-[^3]: <https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68>
-[^4]: <https://www.saedsayad.com/association_rules.htm>
+[^1]: [UXDesign](https://uxdesign.cc/an-intro-to-machine-learning-for-designers-5c74ba100257)
+[^2]: [TowardsDataScience](https://towardsdatascience.com/clustering-unsupervised-learning-788b215b074b)
+[^3]: [TowardsDataScience](https://towardsdatascience.com/the-5-clustering-algorithms-data-scientists-need-to-know-a36d136ef68)
+[^4]: [SaedSayad](https://www.saedsayad.com/association_rules.htm)

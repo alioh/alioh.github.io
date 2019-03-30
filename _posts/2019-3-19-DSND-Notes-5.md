@@ -61,5 +61,5 @@ predAdaBoos = modelAdaBoost.predict(testing_data)
 [العودة إلى ملخص كورس علم البيانات - 4](https://alioh.github.io/DSND-Notes-4/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 6](https://alioh.github.io/DSND-Notes-6)  
   
   
-[^1]: <https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f/>
-[^2]: <https://medium.com/greyatom/a-quick-guide-to-boosting-in-ml-acf7c1585cb5>
+[^1]: [TowardsDataScience](https://towardsdatascience.com/ensemble-methods-in-machine-learning-what-are-they-and-why-use-them-68ec3f9fef5f/)
+[^2]: [Greyatom](https://medium.com/greyatom/a-quick-guide-to-boosting-in-ml-acf7c1585cb5)

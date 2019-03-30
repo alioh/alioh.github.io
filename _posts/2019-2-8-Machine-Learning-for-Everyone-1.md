@@ -81,7 +81,7 @@ title: تعلم الآلة للجميع - 1
   
 
 
-[^1]: <https://vas3k.com/blog/machine_learning/>
-[^2]: <https://www.nmthgiat.com/terminology/>
-[^3]: <https://www.techradar.com/news/captcha-if-you-can-how-youve-been-training-ai-for-years-without-realising-it>  
-[^4]: <https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/>
+[^1]: [Vas3k](https://vas3k.com/blog/machine_learning/)
+[^2]: [Nmthgiat](https://www.nmthgiat.com/terminology/)
+[^3]: [TechRadar](https://www.techradar.com/news/captcha-if-you-can-how-youve-been-training-ai-for-years-without-realising-it)
+[^4]: [Jason's-Machine-Learning-101](https://docs.google.com/presentation/d/1kSuQyW5DTnkVaZEjGYCkfOxvzCqGEFzWBy4e9Uedd9k/)

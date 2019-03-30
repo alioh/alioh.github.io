@@ -66,11 +66,11 @@ title: تعلم الآلة للجميع - 3
   
   
 
-[^1]: <https://twitter.com/Dr_Hmood/status/928772600599384064>
-[^2]: <https://twitter.com/Dr_Hmood/status/903048189040877568>
-[^3]: <https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052>
-[^4]: <https://towardsdatascience.com/decision-trees-and-random-forests-for-classification-and-regression-pt-1-dbb65a458df>
-[^5]: <https://medium.com/@rishabhjain_22692/decision-trees-it-begins-here-93ff54ef134>
-[^6]: <https://www.youtube.com/watch?v=zM4VZR0px8E>
-[^7]: <https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html>
-[^8]: <https://medium.com/machine-learning-for-humans/supervised-learning-740383a2feab>
+[^1]: [@Dr_Hmood](https://twitter.com/Dr_Hmood/status/928772600599384064)
+[^2]: [@Dr_Hmood](https://twitter.com/Dr_Hmood/status/903048189040877568)
+[^3]: [TowardsDataScience](https://towardsdatascience.com/decision-trees-in-machine-learning-641b9c4e8052)
+[^4]: [TowardsDataScience](https://towardsdatascience.com/decision-trees-and-random-forests-for-classification-and-regression-pt-1-dbb65a458df)
+[^5]: [rishabhjain_22692](https://medium.com/@rishabhjain_22692/decision-trees-it-begins-here-93ff54ef134)
+[^6]: [Youtube](https://www.youtube.com/watch?v=zM4VZR0px8E)
+[^7]: [ML-Cheatsheet](https://ml-cheatsheet.readthedocs.io/en/latest/logistic_regression.html)
+[^8]: [Machine-Learning-For-Humans](https://medium.com/machine-learning-for-humans/supervised-learning-740383a2feab)
