@@ -79,7 +79,7 @@ print(xor.predict_proba(X))
 * nb_epoch [^5]
 * verbose [^6]  
 
-أمثلية عملية: [1](https://towardsdatascience.com/how-to-build-a-neural-network-with-keras-e8faa33d0ae4), [2](https://towardsdatascience.com/building-a-deep-learning-model-using-keras-1548ca149d37)
+أمثلية عملية: [1](https://towardsdatascience.com/how-to-build-a-neural-network-with-keras-e8faa33d0ae4)، [2](https://towardsdatascience.com/building-a-deep-learning-model-using-keras-1548ca149d37)
 
 
 -----
@@ -92,7 +92,3 @@ print(xor.predict_proba(X))
 [^4]: [Keras](https://keras.io/activations/)
 [^5]: [Stackoverflow](https://stackoverflow.com/a/47905435/2022948)
 [^6]: [Stackoverflow](https://stackoverflow.com/a/44907684/2022948)
-[^4]: [AnalyticsVidhya](https://www.analyticsvidhya.com/blog/2018/04/fundamentals-deep-learning-regularization-techniques/)
-[^5]: [Amarbudhiraja](https://medium.com/@amarbudhiraja/https-medium-com-amarbudhiraja-learning-less-to-learn-better-dropout-in-deep-machine-learning-74334da4bfc5)
-[^6]: [TowardsDataScience](https://towardsdatascience.com/stochastic-gradient-descent-with-momentum-a84097641a5d)
-[^7]: [VisualStudioMagazine](https://visualstudiomagazine.com/articles/2017/08/01/neural-network-momentum.aspx)
