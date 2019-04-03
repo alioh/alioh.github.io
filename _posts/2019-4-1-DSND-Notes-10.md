@@ -26,7 +26,7 @@ title: ملخص كورس علم البيانات - 10
 
 ##### Tensor  
 ![](https://alioh.github.io/images/2019-4-1/tensor.png)  
-كل ما يكون ويدخل في الشبكة العصبية عبارة عن Tensor، بمعنا أصح، اي شئ نريد إختبارة في الشبكة يجب أن نحولة إلى Tensor من أرقام.  
+كل المدخلات في الشبكة العصبية عبارة عن Tensor، بمعنى أصح، اي شئ نريد إختبارة في الشبكة يجب أن نحولة إلى Tensor من أرقام.  
 
 ##### طريقة تصميم شبكة عصبية في Pytorch  
 شبكة عصبية بـLayer واحد.  
@@ -153,7 +153,7 @@ class Network(nn.Module):
 ```
 
 مثال آخر:  
-![](https://alioh.github.io/images/2019-4-1/mlp_mnist.png.jpg)  
+![](https://alioh.github.io/images/2019-4-1/mlp_mnist.png)  
 طريقة تكوين هذه الشبكة العصبية في بايثون و pytorch كالتالي:
 ```python
 from torch import nn
