@@ -78,9 +78,9 @@ print(xor.predict_proba(X))
 * Activation [^4]  
 * nb_epoch [^5]
 * verbose [^6]  
+* input_shape [^7]  
 
 أمثلية عملية: [1](https://towardsdatascience.com/how-to-build-a-neural-network-with-keras-e8faa33d0ae4)، [2](https://towardsdatascience.com/building-a-deep-learning-model-using-keras-1548ca149d37)
-
 
 -----
 [العودة إلى ملخص كورس علم البيانات - 8](https://alioh.github.io/DSND-Notes-8/)   -   [الإنتقال إلى ملخص كورس علم البيانات - 10](https://alioh.github.io/DSND-Notes-10)  
@@ -92,3 +92,4 @@ print(xor.predict_proba(X))
 [^4]: [Keras](https://keras.io/activations/)
 [^5]: [Stackoverflow](https://stackoverflow.com/a/47905435/2022948)
 [^6]: [Stackoverflow](https://stackoverflow.com/a/44907684/2022948)
+[^7]: [Stackoverflow](https://stackoverflow.com/a/44748370/2022948)
