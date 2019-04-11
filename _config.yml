@@ -51,18 +51,18 @@ url: https://alioh.github.io
 # إذا كانت المدونة خاصة للصفحات المشاريع في GitHub (http://yourusername.github.io/repository-name مثلاً) عدل هذا المتغير ليطابق اسم المشروع
 baseurl: ""
 
-comments:
-  provider: "staticman"
-  allowedFields: ["name", "email", "url", "message"]
-  branch: "master"
-  commitMessage: "New comment."
-  filename: comment-{@timestamp}
-  format: "yaml"
-  moderation: false
-  path: "_data/comments/{options.slug}"
-  requiredFields: ['name', 'email', 'message']
-  transforms:
-    email: "md5"
+# comments:
+#   provider: "staticman"
+#   allowedFields: ["name", "email", "url", "message"]
+#   branch: "master"
+#   commitMessage: "New comment."
+#   filename: comment-{@timestamp}
+#   format: "yaml"
+#   moderation: false
+#   path: "_data/comments/{options.slug}"
+#   requiredFields: ['name', 'email', 'message']
+#   transforms:
+#     email: "md5"
 
 #
 # هذه المتغيرات خاصة بـJekyll ولا أنصح بتعديلها، لذلك لا حاجة لشرحها
