@@ -13,5 +13,6 @@ layout: default
     كُتب في {{ page.date | date: "%d/%m/%Y" }}
   </div>
 
-  {% include disqus.html %}
+  {% comment %} {% include disqus.html %} {% endcomment %}
+  {% include comments.html %}
 </article>
