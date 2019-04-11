@@ -20,7 +20,7 @@ avatar: https://github.com/alioh.png
 
 # لكل هوية تضعها هنا ستظهر أيقونة في أسفل المدونة
 footer-links:
-  webpage: 0
+  webpage: http://alioh.com
   telegram: aliohali
   dribbble:
   email:
@@ -39,7 +39,7 @@ footer-links:
 
 # ضع الاسم Disqus القصير الخاص بك (الاسم القصير وليس اسم المستخدم) لتفعيل الردود على المدونة
 # ستجد الاسم القصير الخاص بك في إعدادات حسابك في Disqus
-disqus: alioh
+disqus: 
 
 # إذا أردت تفعيل إحصاءات الزوار في Google Analytics أدخل المعرف الخاص بك (مثلاً UA-2110908-2)
 google_analytics: UA-134016492-1
