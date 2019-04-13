@@ -52,7 +52,7 @@ title: تعلم الآلة للجميع - 5
 
 نهاية المنشورات الخاصه بتعلم الآلة للجميع، شكر خاص إلى [د. أسيل الداود](https://sites.google.com/view/aseeladdawood)، [علياء الريحان](https://www.linkedin.com/in/alia-alrehan)، [ولاء البلوي](http://linkedin.com/in/walaa-alblwai) على التدقيق والمراجعه.  
   
-في حال لديك إقتراحات أو تصحيحات يرجى التواصل معي عن طريق [تويتر](https://twitter.com/alioh) أو أي وسائل التواصل المنشورة [هنا](http://www.alioh.com).
+في حال لديك إقتراحات أو تصحيحات يرجى التواصل معي عن طريق [تويتر](https://twitter.com/alioh) أو أي وسائل التواصل [هنا](http://www.alioh.com).
   
   
   -----
