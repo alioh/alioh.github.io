@@ -18,7 +18,7 @@ More info in jupyter notebook file.
 'Call me now',  
 'Hello, Call you tomorrow?']  
 بعد تحويلها تصبح بهذا الشكل:  
-![](https://alioh.github.io/images/2019-3-16/countvectorizer.png.png)  
+![](https://alioh.github.io/images/2019-3-16/countvectorizer.png)  
 
 تتم هذه العملية بواسطة دالة [CountVectorizer](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.CountVectorizer.html#sklearn.feature_extraction.text.CountVectorizer) في scikit-learn، معلومات مهمة في عمل الدالة:  
 - الدالة تحول الكلمات إلى Lowercase إلا اذا تم إلغاء هذا الشرط.
