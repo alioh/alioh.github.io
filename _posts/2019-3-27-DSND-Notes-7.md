@@ -19,7 +19,7 @@ title: ملخص كورس علم البيانات - 7
 
 ##### Discrete vs Continuous  
 يقصد بـDiscrete هي البيانات التي ليست متسلسلة مثلاً `[2,6,9,15]` ونقوم بعملية حسابيه لتحويلها لبيانات متسلسلة من 0 إلى 1، البيانات يفضل انت تكون دائماً متسلسلة في الشبكات العصبية.  ``sigmoid(x) = 1/(1+e^-x)``
-![](https://alioh.github.io/images/2019-2-27/DataConversionExamples.GIF)  
+![](https://alioh.github.io/images/2019-3-27/DataConversionExamples.GIF)  
 
 ##### The Softmax Function  
 عندما تكون لدينا أكثر من نتيجتين، مثلاً في الأمثلة السابقة كنا نتوقع رسائل البريد مزعجه أو لا، ماذا لو أردنا ان يخبرنا المودل إذا كان البريد مهم أو لا أو إذا كان مزعجاً.  
@@ -28,7 +28,7 @@ title: ملخص كورس علم البيانات - 7
 * البريد مزعج
 * البريد غير ذلك
 نستخدم القانون التالية لتحويل النتائج Scores إلى إحتمالات Probabilites: [^1]  
-![](https://alioh.github.io/images/2019-2-27/maxresdefault.jpg)  
+![](https://alioh.github.io/images/2019-3-27/maxresdefault.jpg)  
 
 ##### مثال بايثون  
 في المثال التالي طريقة حساب Softmax  
