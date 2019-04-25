@@ -22,7 +22,7 @@ title: ملخص كورس علم البيانات - 10
 * تجمع نتائج عمليات الضرب السابقة ويضاف إليها الـbias (b) وتطبق عليها دالة معينة مثل Sigmoid وتخرج لنا نتيجة.  
 * دالة Sigmoid:
     * ![](https://alioh.github.io/images/2019-4-1/sigmoid-equation.png)  
-    * نضيف النتيجة التي حصلنا عليها هنا بدلاً من x في الدالة السابقة وهي النتئجة النهائية للشبكة  .
+    * نضيف النتيجة التي حصلنا عليها هنا بدلاً من x في الدالة السابقة وهي النتيجة النهائية للشبكة  .
 
 ##### Tensor  
 ![](https://alioh.github.io/images/2019-4-1/tensor.png)  
@@ -153,7 +153,7 @@ class Network(nn.Module):
 ```
 
 مثال آخر:  
-![](https://alioh.github.io/images/2019-4-1/mlp_mnist.png.jpg)  
+![](https://alioh.github.io/images/2019-4-1/mlp_mnist.png)  
 طريقة تكوين هذه الشبكة العصبية في بايثون و pytorch كالتالي:
 ```python
 from torch import nn
