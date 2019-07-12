@@ -21,12 +21,12 @@ This project (Capstone Project) is part of Udacity's Data Scientist Nanodegree p
 <p align="left">
 In this project, I will try to find how Starbucks customers use the app, and how well is the current offers system. I will also see who should the app target in promotions. The data sets used in this project contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. From it, we can understand the costumers' behavior and it might help us make better decisions.<font size="1" color="white"> e</font>  </p> 
 <h3 align="left">Problem Statement</h3>
-<p align="left">
-My goal for this project is predicting which kind of offers, Buy One Get One Free (BOGO), Discount or informational is better to give a current customer by only knowing his/her age, gender, income and the amount they are paying.<font size="1" color="white"> e</font>  
+<p align="left">The problem we have here is that we don't want to give any customer our offers. We want to give only those who we think will be able to complete the offer. Giving an offer to someone we know he/she probably will not be able to complete it is a waste of time and resources that can be given to someone who we know will complete it. I will approach this problem by first cleaning up the data, then doing some exploratory analysis and see who are my most valuable customers after that I will create a model to help us predicting feature customers and which type of offer should we give them.<font size="1" color="white"> e</font>  
+<p align="left">My goal for this project is predicting which kind of offers, Buy One Get One Free (BOGO), Discount or informational is better to give a current customer by only knowing his/her age, gender, income and the amount they are paying.<font size="1" color="white"> e</font>  
 </p> 
 <h3 align="left">Metrics</h3>
 <p align="left">
-The metric I used this project is accuracy. For the different models I used in this project, I check the accuracy my training and testing data sets and decided which to choose based on it.<font size="1" color="white"> e</font> </p>
+The metric I used this project is accuracy. Since we have a simple classification problem, I will use accuracy to evaluate my models. We want to see how well our model by seeing the number of correct predictions vs total number of predictions. For the different models I used in this project, I checked the accuracy my training and testing data sets and decided which to choose based on it.<font size="1" color="white"> e</font> </p>
 
 <h3 align="left">Analysis</h3>  
 
@@ -237,7 +237,15 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 
 <img src="https://alioh.github.io/images/2019-7-12/model_result.jpg"> 
 
-<p align="left">From the previous table, we can see that we scored 100% accuracy in the training and testing data sets on 4 models. To avoid over fitting I will choose Logistic Regression since it got good results 65% on training and 80% on testing data sets.<font size="1" color="white"> e</font> </p>
+<p align="left">From the previous table, we can see that we scored 100% accuracy in the training and testing data sets on 4 models. To avoid over fitting I will choose <b>Logistic Regression</b> since it got good results 65% on training and 80% on testing data sets. <b>Logistic Regression</b> is better used here since we have few binomial outcomes (BOGO = 1, discount = 2, informational = 3). It is good here because we have good amount of data to work with.<font size="1" color="white"> e</font> </p>
+
+<h2 align="left">Conclusion</h2>  
+<p align="left">In this project, I tried to analyze and make model to predict the best offer to give a Starbucks customer. First I explored the data and see what I have to change before start the analysis. Then I did some exploratory analysis on the data after cleaning. From that analysis I found out that most favorite type of offers are <b>Buy One Get </b> (BOGO) offers and <b>Discount</b> offers. I digged deep to see who and what type of customers we have and noticed that <b>Females</b> tend to complete offers more than males with <b>56</b> completion of the offers they received. Where <b>Males</b> completed only <b>43.18</b> from the offers they received. But our current data shows that we gave <b>males</b> more offers since they have more transactions than females with total number of <b>72794</b> transactions, where females only had <b>49382</b> transactions.
+In conclusion, the company should give more offers to <b>Females</b> than <b>Males</b> since they have more completed offers. And they should focus more on <b>BOGO</b> and <b>Discount</b> offers since they are the one that tend to make customers buy more.<font size="1" color="white"> e</font></p>  
+
+
+<h2 align="left">Improvements</h2> 
+<p align="left">I think I got to a point where we have good results and we understand the data we have very well. But to make our results even better, I would try to improve my data collection and fix issues I have with NaN values. I will also try to get even more data like location and when the transaction were completed, which branch and what time of the day. All these data can help us know when and where to give our offers. Also having more data is always good think to help us improve our model results.<font size="1" color="white"> e</font></p>  
 
 <p align="left">
 To see more detailed analysis with numbers and codes, check the project Github repository <a href='https://github.com/alioh/DSND-Capstone'>here</a>.<font size="1" color="white"> e</font> </p> 
