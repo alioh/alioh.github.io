@@ -13,8 +13,7 @@ This project (Capstone Project) is part of Udacity's Data Scientist Nanodegree p
   
 <h2 align="left">Starbucks Best Offers Predictor / Analysis</h2>
   
-  
-<img src="https://alioh.github.io/images/2019-7-12/Starbucks_Recyclable_Cups.jpg)  
+![](https://alioh.github.io/images/2019-7-12/Starbucks_Recyclable_Cups.jpg)
   
 <p align="center" size="1" color='gray'>Copyright: monticello/123RF.<font size="1" color="white"> e</font> </p>   
 
@@ -190,7 +189,7 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 <br>
 <p align="left">The mean time it takes a customer to complete an offer is around <b>16 days</b> (390 hours).<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">Which type of promotions each gender likes (offer_type)</h4>
+<h4 align="left">Which type of promotions each gender likes - offer_type</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b6-1.jpg">
 <br>
 <p align="left">We can see that both genders like bogo and discount offers and they have the same reaction to informational offers, they both seem to be not interested to it.<font size="1" color="white"> e</font></p>  
