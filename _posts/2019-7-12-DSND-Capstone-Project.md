@@ -15,6 +15,7 @@ This project (Capstone Project) is part of Udacity's Data Scientist Nanodegree p
   
   
 ![](https://alioh.github.io/images/2019-7-12/Starbucks_Recyclable_Cups.jpg)  
+  
 <p align="center" size="1" color='gray'>Copyright: monticello/123RF.<font size="1" color="white"> e</font> </p>   
 
 <h3 align="left">Project Overview</h3>
@@ -42,7 +43,7 @@ My objective here is to find patterns and show when and where to give specific o
 
 <br>
 
-<h2>Data Exploration / Understanding</h2>  
+<h2 align="left">Data Exploration / Understanding</h2>  
 <p align="left">
 In this project we were given 3 files. Before I start analyzing we have to explore and see what is the data we have. We need to check if it is clean or not, if each column have the right type that the data tell, for example if the data in column called price is saved as string, we need to convert it to number to help us in the analysis if we want to find the sum for example, having it as string will not return the total of that column. Similar thing goes to dates saved as strings. <font size="1" color="white"> e</font>  
 </p> 
@@ -55,7 +56,7 @@ The data we have is provided by Starbucks. Here is a quick breakthrough of how t
 </ul>
 Here is the schema and explanation of each variable in the files:  <br><br>
 <b>portfolio.json</b> - <i>10 rows, 6 columns</i>.
-<ul align="left">
+<ul dir='ltr' align="left">
     <li align="left">id (string) - offer id</li>
     <li align="left">offer_type (string) - type of offer ie BOGO, discount, informational</li>
     <li align="left">difficulty (int) - minimum required spend to complete an offer</li>
