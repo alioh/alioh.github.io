@@ -52,7 +52,7 @@ In this project we were given 3 files. Before I start analyzing we have to explo
   <li align="left">profile.json - demographic data for each customer  </li>
   <li align="left">transcript.json - records for transactions, offers received, offers viewed, and offers completed  </li>
 </ul>
-<p align="left">Here is the schema and explanation of each variable in the files:<font size="1" color="white"> e</font></p> <br><br>
+<p align="left">Here is the schema and explanation of each variable in the files:<font size="1" color="white"> e</font></p> <br>
 <p align="left"><b>portfolio.json</b> - <i>10 rows, 6 columns</i>.<font size="1" color="white"> e</font></p>
  <ul dir='ltr' align="left">
     <li align="left">id (string) - offer id</li>
@@ -61,7 +61,7 @@ In this project we were given 3 files. Before I start analyzing we have to explo
     <li align="left">reward (int) - reward given for completing an offer</li>
     <li align="left">duration (int) - time for offer to be open, in days</li>
     <li align="left">channels (list of strings)</li>
-</ul><br>
+</ul>
 
 <p align="left"><b>profile.json</b> - <i>17000 rows, 5 columns</i>.<font size="1" color="white"> e</font></p>
  <ul dir='ltr' align="left">
@@ -70,7 +70,7 @@ In this project we were given 3 files. Before I start analyzing we have to explo
     <li align="left">gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)</li>
     <li align="left">id (str) - customer id</li>
     <li align="left">income (float) - customer's income</li>
-</ul><br>
+</ul>
 
 <p align="left"><b>transcript.json</b> - <i>306534 rows, 4 columns</i>.<font size="1" color="white"> e</font></p>
  <ul dir='ltr' align="left">
@@ -78,85 +78,85 @@ In this project we were given 3 files. Before I start analyzing we have to explo
     <li align="left">person (str) - customer id</li>
     <li align="left">time (int) - time in hours since start of test. The data begins at time t=0</li>
     <li align="left">value - (dict of strings) - either an offer id or transaction amount depending on the record</li>
-</ul><br>
+</ul>
 <h2 align="left">Data preparation / Wrangling</h2>  
-<p align="left">In this part I did a lot of changes to the three tables. Here are the changes I made:</p><br><br>
+<p align="left">In this part I did a lot of changes to the three tables. Here are the changes I made:<font size="1" color="white"> e</font></p>
 <h4 align="left">portfolio.json</h4>
 <p align="left"><b align="left">channels column</b>: this hold a list of the channels where the offer is delivered. and to fix it I one-hot-encoded it to look like this.<font size="1" color="white"> e</font></p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/one-hot-encode.jpg">
-<br>
+
 <h4 align="left">profile.json</h4>
 <p align="left">
-The gender and income column have NaN values. For gender, NaN were converted to NA. For income, NaN were replaced by the mean<font size="1" color="white"> e</font></p>  
-<br>
+The gender and income column have NaN values. For gender, NaN were converted to NA. For income, NaN were replaced by the mean.<font size="1" color="white"> e</font></p>  
+
 <h4 align="left">transcript.json</h4>
 <p align="left">
-Similar to what we saw before in portfolio channels column, here the value column holds dictionary of offer id, amount, offer_id and reward. To fix this I will do the same think I did before with channels, one-hot-encoding, and I will combine offer_id and offer id since both means the same thing. The final result looks like this.<font size="1" color="white"> e</font></p><br>  
+Similar to what we saw before in portfolio channels column, here the value column holds dictionary of offer id, amount, offer_id and reward. To fix this I will do the same think I did before with channels, one-hot-encoding, and I will combine offer_id and offer id since both means the same thing. The final result looks like this.<font size="1" color="white"> e</font></p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/one-hot-encode2.jpg">
-<br>
+
 <h2 align="left">Analysis</h2>
 
 <h3 align="left">A. Univariate Exploration</h3>
 <h4 align="left">What are the most common values for each column in each data frame</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a1-1.jpg">
-<br>
+
 <p align="left">
 For age,  we can see that most of ages in our profile data frame falls in-between 40 and 80. We already notice one outlier which is 118. Our median is around 58 years old.<font size="1" color="white"> e</font></p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/a2-1.jpg"> 
 <img src="https://alioh.github.io/images/2019-7-12/a2-2.jpg"> <img src="https://alioh.github.io/images/2019-7-12/a2-3.jpg">
-<br>
+
 <p align="left">The first bar chart tell us that we have a lot profile in the adult age group, ages between 21 and 64.<font size="1" color="white"> e</font></p>  
 
 
 <h4 align="left">What is the average income for Starbucks customers</h4>
 
 <img src="https://alioh.github.io/images/2019-7-12/a1-2.jpg">
-<br>
+
 <p align="left">For the income, most of their income are between 50k and 78k. The exact number for average income is 65404.<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">What is the average age for Starbucks customers</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a1-1.jpg">
-<br>
+
 <p align="left">From what we saw in the first question, our average age is around 58.<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">What is the most and least common promotion</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a5-1.jpg">
-<br>
+
 <p align="left">The offer ID 'fafdcd668e3743c1bb461111dcafc2a4' is the most common with number of completion equal to 5317. The least common offer is '4d5c57ea9a6940dd891ad53e9dbe8da0' with total of 3331 completion.<font size="1" color="white"> e</font></p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/a5-2.jpg">
-<br>
+
 <p align="left">The most common types of offers is BOGO and Discounts.<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">Who are the most loyal customer - most transcripts</h4>
 <p align="left">Here are a list of the most loyal customers (customers who spends a lot of money on offers/transactions).<font size="1" color="white"> e</font></p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/a7-1.jpg">
-<br>
+
 
 <h4 align="left">What are the most events we have in our transcripts</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a8-1.jpg">
-<br>
+
 <p align="left">Transaction have the most amount of rows in the transcript data frame with around 140k, almost half of our data frames total.<font size="1" color="white"> e</font></p>  
 
 <h3 align="left">B. Multivariate Exploration</h3>
 <h4 align="left">What is the most common promotion for children, teens, young adult, adult and elderly customers</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b1-1.jpg">
-<br>
+
 <p align="left">
 NA = Transactions. We can see that most of our customers falls in the adult and elderly group age. And they prefer Buy One Get One and Discount offers than informational offers.<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">From profiles, which get more income, males or females</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b2-1.jpg">
-<br>
+
 <p align="left">The graph above shows that income median (the white dot) for females (around 70k) is higher than males (around 60k) we can also see that for females the income spreads from 40k to 100k. For males most of them around 40k to 70k which close to median.<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">What is the gender distribution in the transcript data frame</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b3-1.jpg">
-<br>
+
 <p align="left">Total number of males records 155690, and total number of female records is 113101.<font size="1" color="white"> e</font></p>  
 <p align="left">From the two graphs above we can see that males received offers more than females. Both genders seems to reflect on those offers similarly. Around half of offers received were viewed by both genders, but it seems that females would complete those offers more than males. The numbers are:<font size="1" color="white"> e</font></p>  
 
@@ -186,12 +186,12 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 <p align="left">The numbers above shows that males receive offers more than females by 9% and their transaction is 19% more too, which tells that they both more than females. Regarding offers, Males and Females received the same amount of <b>BOGO</b> and <b>discount</b> offers.<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">Who takes long time to achieve each promotion goal and from which gender, age, income</h4>
-<br>
+
 <p align="left">The mean time it takes a customer to complete an offer is around <b>16 days</b> (390 hours).<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">Which type of promotions each gender likes - offer_type</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b6-1.jpg">
-<br>
+
 <p align="left">We can see that both genders like bogo and discount offers and they have the same reaction to informational offers, they both seem to be not interested to it.<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">From each offer received by customer, how many they completed</h4>
@@ -210,7 +210,7 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 <p align="left">Number of transaction: 72794, 64.36% of total.<font size="1" color="white"> e</font></p>  
 <p align="left">Females completed <b>56%</b> of the offers they received, it is <b>13%</b> more than males, but males made more transactions than females, <b>64%</b> to <b>43%</b>.<font size="1" color="white"> e</font></p>  
 
-<br>
+
 <h2 align="left">Model</h2>
 <p align="left">In this part, I tried to make a model that can identify which kind of offers we should give a customer. Because my model will guess the offer_type, I will only get those transcripts with offer id's. So I will ignore all transactions without offer id for now. <font size="1" color="white"> e</font> </p>  
 <p align="left">Our features here are:<font size="1" color="white"> e</font> </p>  
@@ -223,19 +223,19 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
     <li align="left">Age_group. (Will be replaced from categorical to numerical)</li>
     <li align="left">Gender. (Will be replaced from categorical to numerical).</li>
     <li align="left">Income. (normalized)</li>
-</ul><br>
+</ul>
 <p align="left">And my target is offer_type. For my target, I will replace texts with numbers. Where BOGO = 1, discount = 2, informational = 3.<font size="1" color="white"> e</font> </p> 
 <p align="left">Here is how the final data frame looks like before modeling:<font size="1" color="white"> e</font> </p> 
 
 <img src="https://alioh.github.io/images/2019-7-12/df_model.jpg">
-<br>
+
 <p align="left">The shape of my features and labels was:<font size="1" color="white"> e</font> </p> 
  <ul dir='ltr' align="left">
     <li align="left">Training Features Shape: (125685, 8)</li>
     <li align="left">Training Labels Shape: (125685,)</li>
     <li align="left">Testing Features Shape: (41896, 8)</li>
     <li align="left">Testing Labels Shape: (41896,)</li>
-</ul><br>
+</ul>
 <p align="left">Now for the modeling part, I tried six different models and this is the results:<font size="1" color="white"> e</font> </p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/model_result.jpg"> 
