@@ -15,23 +15,24 @@ This project (Capstone Project) is part of Udacity's Data Scientist Nanodegree p
   
   
 ![](https://alioh.github.io/images/2019-7-12/Starbucks_Recyclable_Cups.jpg)  
-<p align="center" size="4" color='gray'>Copyright: monticello/123RF.<font size="1" color="white"> e</font> </p>   
+<p align="center" size="1" color='gray'>Copyright: monticello/123RF.<font size="1" color="white"> e</font> </p>   
 
-<h3 align="left">Project Overview:</h3>
+<h3 align="left">Project Overview</h3>
 <p align="left">
 In this project, I will try to find how Starbucks customers use the app, and how well is the current offers system. I will also see who should the app target in promotions. The data sets used in this project contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. From it, we can understand the costumers' behavior and it might help us make better decisions.<font size="1" color="white"> e</font>  </p> 
-<h3 align="left">Problem Statement:</h3>
+<h3 align="left">Problem Statement</h3>
 <p align="left">
 My goal for this project is predicting which kind of offers, Buy One Get One Free (BOGO), Discount or informational is better to give a current customer by only knowing his/her age, gender, income and the amount they are paying.<font size="1" color="white"> e</font>  
 </p> 
-<h3 align="left">Metrics:</h3>
+<h3 align="left">Metrics</h3>
 <p align="left">
 The metric I used this project is accuracy. For the different models I used in this project, I check the accuracy my training and testing data sets and decided which to choose based on it.<font size="1" color="white"> e</font>  
 <br>
 
-<h3 align="left">Analysis:</h3>  
+<h3 align="left">Analysis</h3>  
 
 ![](https://alioh.github.io/images/2019-7-12/pestle-analysis-of-starbucks.jpg)  
+  
 <p align="center" size="4" color='gray'>Copyright: <a href="https://www.flickr.com/photos/opengridscheduler/16604095887/">opengridscheduler</a><font size="1" color="white"> e</font> </p>   
 
 <h2>Business understanding</h2>  
