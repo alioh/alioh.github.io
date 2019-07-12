@@ -32,7 +32,7 @@ The metric I used this project is accuracy. For the different models I used in t
 
 <h3 align="left">Analysis</h3>  
 
-![](https://alioh.github.io/images/2019-7-12/pestle-analysis-of-starbucks.jpg)  
+<img src="https://alioh.github.io/images/2019-7-12/pestle-analysis-of-starbucks.jpg">
   
 <p align="center" size="4" color='gray'>Copyright: <a href="https://www.flickr.com/photos/opengridscheduler/16604095887/">opengridscheduler</a><font size="1" color="white"> e</font> </p>   
 
@@ -48,15 +48,15 @@ My objective here is to find patterns and show when and where to give specific o
 In this project we were given 3 files. Before I start analyzing we have to explore and see what is the data we have. We need to check if it is clean or not, if each column have the right type that the data tell, for example if the data in column called price is saved as string, we need to convert it to number to help us in the analysis if we want to find the sum for example, having it as string will not return the total of that column. Similar thing goes to dates saved as strings. <font size="1" color="white"> e</font>  
 </p> 
 <p align="left">
-The data we have is provided by Starbucks. Here is a quick breakthrough of how the data looks like:  <br>
-<ul align="left">
+The data we have is provided by Starbucks. Here is a quick breakthrough of how the data looks like:<font size="1" color="white"> e</font>  <br>
+ <ul dir='ltr' align="left">
   <li align="left">portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)  </li>
   <li align="left">profile.json - demographic data for each customer  </li>
   <li align="left">transcript.json - records for transactions, offers received, offers viewed, and offers completed  </li>
 </ul>
-Here is the schema and explanation of each variable in the files:  <br><br>
+<p align="left">Here is the schema and explanation of each variable in the files:<font size="1" color="white"> e</font> <br><br>
 <b>portfolio.json</b> - <i>10 rows, 6 columns</i>.
-<ul dir='ltr' align="left">
+ <ul dir='ltr' align="left">
     <li align="left">id (string) - offer id</li>
     <li align="left">offer_type (string) - type of offer ie BOGO, discount, informational</li>
     <li align="left">difficulty (int) - minimum required spend to complete an offer</li>
@@ -66,7 +66,7 @@ Here is the schema and explanation of each variable in the files:  <br><br>
 </ul><br>
 
 <b>profile.json</b> - <i>17000 rows, 5 columns</i>.
-<ul align="left">
+ <ul dir='ltr' align="left">
     <li align="left">age (int) - age of the customer</li>
     <li align="left">became_member_on (int) - date when customer created an app account</li>
     <li align="left">gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)</li>
@@ -75,7 +75,7 @@ Here is the schema and explanation of each variable in the files:  <br><br>
 </ul><br>
 
 <b>transcript.json</b> - <i>306534 rows, 4 columns</i>.
-<ul align="left">
+ <ul dir='ltr' align="left">
     <li align="left">event (str) - record description (ie transaction, offer received, offer viewed, etc.)</li>
     <li align="left">person (str) - customer id</li>
     <li align="left">time (int) - time in hours since start of test. The data begins at time t=0</li>
@@ -219,7 +219,7 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 <h2 align="left">Model</h2>
 <p align="left">In this part, I tried to make a model that can identify which kind of offers we should give a customer. Because my model will guess the offer_type, I will only get those transcripts with offer id's. So I will ignore all transactions without offer id for now. <font size="1" color="white"> e</font> </p>  
 <p align="left">Our features here are:<font size="1" color="white"> e</font> </p>  
-<ul align="left">
+ <ul dir='ltr' align="left">
     <li align="left">Event. (Will be replaced from categorical to numerical)</li>
     <li align="left">Time. (normalized)</li>
     <li align="left">Offer_id. (Will be replaced from categorical to numerical)</li>
@@ -235,7 +235,7 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 ![](https://alioh.github.io/images/2019-7-12/df_model.jpg)  
 <br>
 <p align="left">The shape of my features and labels was:<font size="1" color="white"> e</font> </p> 
-<ul align="left">
+ <ul dir='ltr' align="left">
     <li align="left">Training Features Shape: (125685, 8)</li>
     <li align="left">Training Labels Shape: (125685,)</li>
     <li align="left">Testing Features Shape: (41896, 8)</li>
