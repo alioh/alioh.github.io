@@ -83,7 +83,7 @@ In this project we were given 3 files. Before I start analyzing we have to explo
 <h2 align="left">Data preparation / Wrangling</h2>  
 <p align="left">In this part I did a lot of changes to the three tables. Here are the changes I made:</p><br><br>
 <h4 align="left">portfolio.json</h4>
-<b align="left">channels column</b>: this hold a list of the channels where the offer is delivered. and to fix it I one-hot-encoded it to look like this.<font size="1" color="white"> e</font></p>  
+<p align="left"><b align="left">channels column</b>: this hold a list of the channels where the offer is delivered. and to fix it I one-hot-encoded it to look like this.<font size="1" color="white"> e</font></p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/one-hot-encode.jpg">
 <br>
@@ -100,7 +100,7 @@ Similar to what we saw before in portfolio channels column, here the value colum
 <h2 align="left">Analysis</h2>
 
 <h3 align="left">A. Univariate Exploration</h3>
-<h4 align="left">What are the most common values for each column in each dataframe?</h4>
+<h4 align="left">What are the most common values for each column in each dataframe</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a1-1.jpg">
 <br>
 <p align="left">
@@ -112,18 +112,18 @@ For age,  we can see that most of ages in our profile dataframe falls in-between
 <p align="left">The first bar chart tell us that we have alot profile in the adult age group, ages between 21 and 64.<font size="1" color="white"> e</font></p>  
 
 
-<h4 align="left">What is the average income for Starbucks customers?</h4>
+<h4 align="left">What is the average income for Starbucks customers</h4>
 
 <img src="https://alioh.github.io/images/2019-7-12/a1-2.jpg">
 <br>
 <p align="left">For the income, most of their income are between 50k and 78k. The exact number for average income is 65404.<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">What is the average age for Starbucks customers?</h4>
+<h4 align="left">What is the average age for Starbucks customers</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a1-1.jpg">
 <br>
 <p align="left">From what we saw in the first question, our averege age is around 58.<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">What is the most and least common promotion?</h4>
+<h4 align="left">What is the most and least common promotion</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a5-1.jp">
 <br>
 <p align="left">The offer ID 'fafdcd668e3743c1bb461111dcafc2a4' is the most common with number of completion equal to 5317. The least common offer is '4d5c57ea9a6940dd891ad53e9dbe8da0' with total of 3331 completion.<font size="1" color="white"> e</font></p>  
@@ -132,13 +132,13 @@ For age,  we can see that most of ages in our profile dataframe falls in-between
 <br>
 <p align="left">The most common types of offers is BOGO and Discounts.<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">Who are the most loyal customer (most transcripts)?</h4>
+<h4 align="left">Who are the most loyal customer (most transcripts)</h4>
 <p align="left">Here are a list of the most loyal customers (customers who spends alot of money on offers/transactions).<font size="1" color="white"> e</font></p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/a7-1.jpg">
 <br>
 
-<h4 align="left">What are the most events we have in our transcripts?</h4>
+<h4 align="left">What are the most events we have in our transcripts</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a8-1.jpg">
 <br>
 <p align="left">Transaction have the most amount of rows in the transcript dataframe with around 140k, almost half of our dataframes total.<font size="1" color="white"> e</font></p>  
@@ -150,12 +150,12 @@ For age,  we can see that most of ages in our profile dataframe falls in-between
 <p align="left">
 NA = Transactions. We can see that most of our customers falls in the adult and elderly group age. And they prefer Buy One Get One and Discount offers than informational offers.<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">From profiles, which get more income, males or females?</h4>
+<h4 align="left">From profiles, which get more income, males or females</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b2-1.jpg">
 <br>
 <p align="left">The graph above shows that income median (the white dot) for females (around 70k) is higher than males (around 60k) we can also see that for females the income spreads from 40k to 100k. For males most of them around 40k to 70k which close to median.<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">What is the gender distribution in the transcript dataframe?</h4>
+<h4 align="left">What is the gender distribution in the transcript dataframe</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b3-1.jpg">
 <br>
 <p align="left">Total number of males records 155690, and total number of female records is 113101.<font size="1" color="white"> e</font></p>  
@@ -190,12 +190,12 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 <br>
 <p align="left">The mean time it tekes a customer to complete an offer is around <b>16 days</b> (390 hours).<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">Which type of promotions each gender likes (offer_type)?</h4>
+<h4 align="left">Which type of promotions each gender likes (offer_type)</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b6-1.jpg">
 <br>
 <p align="left">We can see that both genders like bogo and discount offers and they have the same reaction to informational offers, they both seem to be not intersted to it.<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">From each offer received by customer, how many they completed?</h4>
+<h4 align="left">From each offer received by customer, how many they completed</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b7-1.jpg">
 
 <p align="left">For Females:<font size="1" color="white"> e</font></p>  
