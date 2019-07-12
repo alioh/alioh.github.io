@@ -54,7 +54,7 @@ In this project we were given 3 files. Before I start analyzing we have to explo
   <li align="left">transcript.json - records for transactions, offers received, offers viewed, and offers completed  </li>
 </ul>
 <p align="left">Here is the schema and explanation of each variable in the files:<font size="1" color="white"> e</font></p> <br><br>
-<b align="left">portfolio.json</b> - <i>10 rows, 6 columns</i>.
+<p align="left"><b>portfolio.json</b> - <i>10 rows, 6 columns</i>.<font size="1" color="white"> e</font></p>
  <ul dir='ltr' align="left">
     <li align="left">id (string) - offer id</li>
     <li align="left">offer_type (string) - type of offer ie BOGO, discount, informational</li>
@@ -64,7 +64,7 @@ In this project we were given 3 files. Before I start analyzing we have to explo
     <li align="left">channels (list of strings)</li>
 </ul><br>
 
-<b align="left">profile.json</b> - <i>17000 rows, 5 columns</i>.
+<p align="left"><b>profile.json</b> - <i>17000 rows, 5 columns</i>.<font size="1" color="white"> e</font></p>
  <ul dir='ltr' align="left">
     <li align="left">age (int) - age of the customer</li>
     <li align="left">became_member_on (int) - date when customer created an app account</li>
@@ -73,7 +73,7 @@ In this project we were given 3 files. Before I start analyzing we have to explo
     <li align="left">income (float) - customer's income</li>
 </ul><br>
 
-<b align="left">transcript.json</b> - <i>306534 rows, 4 columns</i>.
+<p align="left"><b>transcript.json</b> - <i>306534 rows, 4 columns</i>.<font size="1" color="white"> e</font></p>
  <ul dir='ltr' align="left">
     <li align="left">event (str) - record description (ie transaction, offer received, offer viewed, etc.)</li>
     <li align="left">person (str) - customer id</li>
@@ -93,23 +93,23 @@ The gender and income column have NaN values. For gender, NaN were converted to 
 <br>
 <h4 align="left">transcript.json</h4>
 <p align="left">
-Similar to what we saw before in portfolio channels column, here the value column holds dictonary of offer id, amount, offer_id and reward. To fix this I will do the same think I did before with channels, one-hot-encoding, and I will combine offer_id and offer id since both means the same thing. The final result looks like this.<font size="1" color="white"> e</font></p><br>  
+Similar to what we saw before in portfolio channels column, here the value column holds dictionary of offer id, amount, offer_id and reward. To fix this I will do the same think I did before with channels, one-hot-encoding, and I will combine offer_id and offer id since both means the same thing. The final result looks like this.<font size="1" color="white"> e</font></p><br>  
 
 <img src="https://alioh.github.io/images/2019-7-12/one-hot-encode2.jpg">
 <br>
 <h2 align="left">Analysis</h2>
 
 <h3 align="left">A. Univariate Exploration</h3>
-<h4 align="left">What are the most common values for each column in each dataframe</h4>
+<h4 align="left">What are the most common values for each column in each data frame</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a1-1.jpg">
 <br>
 <p align="left">
-For age,  we can see that most of ages in our profile dataframe falls in-between 40 and 80. We already notice one outlier which is 118. Our median is around 58 years old.<font size="1" color="white"> e</font></p>  
+For age,  we can see that most of ages in our profile data frame falls in-between 40 and 80. We already notice one outlier which is 118. Our median is around 58 years old.<font size="1" color="white"> e</font></p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/a2-1.jpg"> 
 <img src="https://alioh.github.io/images/2019-7-12/a2-2.jpg"> <img src="https://alioh.github.io/images/2019-7-12/a2-3.jpg">
 <br>
-<p align="left">The first bar chart tell us that we have alot profile in the adult age group, ages between 21 and 64.<font size="1" color="white"> e</font></p>  
+<p align="left">The first bar chart tell us that we have a lot profile in the adult age group, ages between 21 and 64.<font size="1" color="white"> e</font></p>  
 
 
 <h4 align="left">What is the average income for Starbucks customers</h4>
@@ -121,10 +121,10 @@ For age,  we can see that most of ages in our profile dataframe falls in-between
 <h4 align="left">What is the average age for Starbucks customers</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a1-1.jpg">
 <br>
-<p align="left">From what we saw in the first question, our averege age is around 58.<font size="1" color="white"> e</font></p>  
+<p align="left">From what we saw in the first question, our average age is around 58.<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">What is the most and least common promotion</h4>
-<img src="https://alioh.github.io/images/2019-7-12/a5-1.jp">
+<img src="https://alioh.github.io/images/2019-7-12/a5-1.jpg">
 <br>
 <p align="left">The offer ID 'fafdcd668e3743c1bb461111dcafc2a4' is the most common with number of completion equal to 5317. The least common offer is '4d5c57ea9a6940dd891ad53e9dbe8da0' with total of 3331 completion.<font size="1" color="white"> e</font></p>  
 
@@ -132,8 +132,8 @@ For age,  we can see that most of ages in our profile dataframe falls in-between
 <br>
 <p align="left">The most common types of offers is BOGO and Discounts.<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">Who are the most loyal customer (most transcripts)</h4>
-<p align="left">Here are a list of the most loyal customers (customers who spends alot of money on offers/transactions).<font size="1" color="white"> e</font></p>  
+<h4 align="left">Who are the most loyal customer - most transcripts</h4>
+<p align="left">Here are a list of the most loyal customers (customers who spends a lot of money on offers/transactions).<font size="1" color="white"> e</font></p>  
 
 <img src="https://alioh.github.io/images/2019-7-12/a7-1.jpg">
 <br>
@@ -141,10 +141,10 @@ For age,  we can see that most of ages in our profile dataframe falls in-between
 <h4 align="left">What are the most events we have in our transcripts</h4>
 <img src="https://alioh.github.io/images/2019-7-12/a8-1.jpg">
 <br>
-<p align="left">Transaction have the most amount of rows in the transcript dataframe with around 140k, almost half of our dataframes total.<font size="1" color="white"> e</font></p>  
+<p align="left">Transaction have the most amount of rows in the transcript data frame with around 140k, almost half of our data frames total.<font size="1" color="white"> e</font></p>  
 
 <h3 align="left">B. Multivariate Exploration</h3>
-<h4 align="left">What is the most common promotion for children, teens, young adult, adult and elderly customors?</h4>
+<h4 align="left">What is the most common promotion for children, teens, young adult, adult and elderly customers</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b1-1.jpg">
 <br>
 <p align="left">
@@ -155,7 +155,7 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 <br>
 <p align="left">The graph above shows that income median (the white dot) for females (around 70k) is higher than males (around 60k) we can also see that for females the income spreads from 40k to 100k. For males most of them around 40k to 70k which close to median.<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">What is the gender distribution in the transcript dataframe</h4>
+<h4 align="left">What is the gender distribution in the transcript data frame</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b3-1.jpg">
 <br>
 <p align="left">Total number of males records 155690, and total number of female records is 113101.<font size="1" color="white"> e</font></p>  
@@ -165,7 +165,7 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 <img src="https://alioh.github.io/images/2019-7-12/b3-3.jpg">
 
 <p align="left">For Females:<font size="1" color="white"> e</font></p>  
-<p align="left">Total transcipts is: 113101.<font size="1" color="white"> e</font></p>  
+<p align="left">Total transcripts is: 113101.<font size="1" color="white"> e</font></p>  
 <p align="left">Number of bogo offers: 27619, 43.34% of total.<font size="1" color="white"> e</font></p>  
 <p align="left">Number of discount offers: 26652, 41.83% of total.<font size="1" color="white"> e</font></p>  
 <p align="left">Number of informational offers: 9448, 14.83% of total.<font size="1" color="white"> e</font></p>  
@@ -175,7 +175,7 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 <p align="left">Number of transaction: 49382, 43.66% of total.<font size="1" color="white"> e</font></p>  
 
 <p align="left">For Males:<font size="1" color="white"> e</font></p>  
-<p align="left">Total transcipts is: 155690.<font size="1" color="white"> e</font></p>  
+<p align="left">Total transcripts is: 155690.<font size="1" color="white"> e</font></p>  
 <p align="left">Number of bogo offers: 35301, 42.58% of total.<font size="1" color="white"> e</font></p>  
 <p align="left">Number of discount offers: 34739, 41.91% of total.<font size="1" color="white"> e</font></p>  
 <p align="left">Number of informational offers: 12856, 15.51% of total.<font size="1" color="white"> e</font></p>  
@@ -186,14 +186,14 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 
 <p align="left">The numbers above shows that males receive offers more than females by 9% and their transaction is 19% more too, which tells that they both more than females. Regarding offers, Males and Females received the same amount of <b>BOGO</b> and <b>discount</b> offers.<font size="1" color="white"> e</font></p>  
 
-<h4 align="left">Who takes long time to achieve each promotion goal and from which gender, age, income?</h4>
+<h4 align="left">Who takes long time to achieve each promotion goal and from which gender, age, income</h4>
 <br>
-<p align="left">The mean time it tekes a customer to complete an offer is around <b>16 days</b> (390 hours).<font size="1" color="white"> e</font></p>  
+<p align="left">The mean time it takes a customer to complete an offer is around <b>16 days</b> (390 hours).<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">Which type of promotions each gender likes (offer_type)</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b6-1.jpg">
 <br>
-<p align="left">We can see that both genders like bogo and discount offers and they have the same reaction to informational offers, they both seem to be not intersted to it.<font size="1" color="white"> e</font></p>  
+<p align="left">We can see that both genders like bogo and discount offers and they have the same reaction to informational offers, they both seem to be not interested to it.<font size="1" color="white"> e</font></p>  
 
 <h4 align="left">From each offer received by customer, how many they completed</h4>
 <img src="https://alioh.github.io/images/2019-7-12/b7-1.jpg">
@@ -226,7 +226,7 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
     <li align="left">Income. (normalized)</li>
 </ul><br>
 <p align="left">And my target is offer_type. For my target, I will replace texts with numbers. Where BOGO = 1, discount = 2, informational = 3.<font size="1" color="white"> e</font> </p> 
-<p align="left">Here is how the final dataframe looks like before modeling:<font size="1" color="white"> e</font> </p> 
+<p align="left">Here is how the final data frame looks like before modeling:<font size="1" color="white"> e</font> </p> 
 
 <img src="https://alioh.github.io/images/2019-7-12/df_model.jpg">
 <br>
@@ -241,7 +241,7 @@ NA = Transactions. We can see that most of our customers falls in the adult and 
 
 <img src="https://alioh.github.io/images/2019-7-12/model_result.jpg"> 
 
-<p align="left">From the previous table, we can see that we scored 100% accuracy in the training and testing datasets on 4 models. To avoid overfitting I will choose Logisitc Regression since it got good results 65% on training and 80% on testing datasets.<font size="1" color="white"> e</font> </p>
+<p align="left">From the previous table, we can see that we scored 100% accuracy in the training and testing data sets on 4 models. To avoid over fitting I will choose Logistic Regression since it got good results 65% on training and 80% on testing data sets.<font size="1" color="white"> e</font> </p>
 
 <p align="left">
 To see more detailed analysis with numbers and codes, check the project Github repository <a href='https://github.com/alioh/DSND-Capstone'>here</a>.<font size="1" color="white"> e</font> </p> 
