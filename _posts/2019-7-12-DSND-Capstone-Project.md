@@ -26,8 +26,7 @@ My goal for this project is predicting which kind of offers, Buy One Get One Fre
 </p> 
 <h3 align="left">Metrics</h3>
 <p align="left">
-The metric I used this project is accuracy. For the different models I used in this project, I check the accuracy my training and testing data sets and decided which to choose based on it.<font size="1" color="white"> e</font>  
-<br>
+The metric I used this project is accuracy. For the different models I used in this project, I check the accuracy my training and testing data sets and decided which to choose based on it.<font size="1" color="white"> e</font> </p>
 
 <h3 align="left">Analysis</h3>  
 
@@ -40,19 +39,17 @@ The metric I used this project is accuracy. For the different models I used in t
 My objective here is to find patterns and show when and where to give specific offer to a specific customer. Main users of this kind of applications are Starbucks employees and analysts. The plan in this project to have questions and answer them with data visualization. Tha data is provided by Starbucks contains simulated data that mimics customer behavior.<font size="1" color="white"> e</font>  
 </p> 
 
-<br>
-
 <h2 align="left">Data Exploration / Understanding</h2>  
 <p align="left">
 In this project we were given 3 files. Before I start analyzing we have to explore and see what is the data we have. We need to check if it is clean or not, if each column have the right type that the data tell, for example if the data in column called price is saved as string, we need to convert it to number to help us in the analysis if we want to find the sum for example, having it as string will not return the total of that column. Similar thing goes to dates saved as strings. <font size="1" color="white"> e</font>  
 </p> 
-<p align="left">The data we have is provided by Starbucks. Here is a quick breakthrough of how the data looks like:<font size="1" color="white"> e</font></p>  <br>
+<p align="left">The data we have is provided by Starbucks. Here is a quick breakthrough of how the data looks like:<font size="1" color="white"> e</font></p>  
  <ul dir='ltr' align="left">
   <li align="left">portfolio.json - containing offer ids and meta data about each offer (duration, type, etc.)  </li>
   <li align="left">profile.json - demographic data for each customer  </li>
   <li align="left">transcript.json - records for transactions, offers received, offers viewed, and offers completed  </li>
 </ul>
-<p align="left">Here is the schema and explanation of each variable in the files:<font size="1" color="white"> e</font></p> <br>
+<p align="left">Here is the schema and explanation of each variable in the files:<font size="1" color="white"> e</font></p>
 <p align="left"><b>portfolio.json</b> - <i>10 rows, 6 columns</i>.<font size="1" color="white"> e</font></p>
  <ul dir='ltr' align="left">
     <li align="left">id (string) - offer id</li>
