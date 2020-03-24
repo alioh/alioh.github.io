@@ -44,16 +44,16 @@ acc = accuracy_score(y_train, y_pred)
 ![](https://alioh.github.io/images/2019-3-20/Confusion-matrix-example.png)  
 اللون الأخضر في الجدول يعني البيانات التي تم توقعها وكانت نتائجها صحيحه، اللون الأحمر يعني نتائج كان توقعها خاطئ.  
   
-- **Accuracy**: سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-2)، وهو يحدد عدد المرات التي كانت إجابة المُصنف (Classifier) صحيحه. وطريقة حسابه هي تابعه لل **Confusion Matrix**، وطريقة حسابه كالتالي:  
+- **Accuracy**: سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-3)، وهو يحدد عدد المرات التي كانت إجابة المُصنف (Classifier) صحيحه. وطريقة حسابه هي تابعه لل **Confusion Matrix**، وطريقة حسابه كالتالي:  
 `[True Positives + True Negaitve/(Total Data)]`  
 
-- **Precision**: سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-2)، وقلنا انه يحدد نسبة مدى دقة المُصنف في توقعاته الصحيحه.  
+- **Precision**: سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-3)، وقلنا انه يحدد نسبة مدى دقة المُصنف في توقعاته الصحيحه.  
 `[True Positives/(True Positives + False Positives)]`  
 
-- **Recall(sensitivity)**: أيضاً سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-2)، وتقوم بحساب البيانات التي توقعناها أنها صحيحه من بين جميع البيانات التي توقعنا انها صحيحه.  
+- **Recall(sensitivity)**: أيضاً سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-3)، وتقوم بحساب البيانات التي توقعناها أنها صحيحه من بين جميع البيانات التي توقعنا انها صحيحه.  
 `[True Positives/(True Positives + False Negatives)]`  
 
-- **F1 Score**: وأيضاً سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-2)، وهي النتيجة الكاملة لكفائة ودقة المودل.  
+- **F1 Score**: وأيضاً سبق ان تحدثت عنها في [الملخص الثالث](https://alioh.github.io/DSND-Notes-3)، وهي النتيجة الكاملة لكفائة ودقة المودل.  
 `F1 Scode = 2 * ( (Precision * Recall) / (Precision + Recall) )`  
 ويفضل إستخدامة بدل **Percision** و **Recall** كونهما أحياناً في بعض البيانات يقدما نتائج خاطئة ولا تدل فعلاً عن جودة المودل. [^1] [^2]  
 
