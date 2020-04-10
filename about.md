@@ -11,4 +11,4 @@ permalink: /about/
 
 
 ### للتواصل
-@alioh على [تويتر](https://twitter.com/alioh) أو [لينكد ان](https://www.linkedin.com/in/AliOh/)
+@alioh على [تويتر](https://twitter.com/alioh) أو [لينكد ان](https://www.linkedin.com/in/AliOh/) 
