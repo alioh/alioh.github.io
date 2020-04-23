@@ -40,7 +40,7 @@ title: مدخل للقوائم المالية
 **القوائم المالية - Financial Statements**:
 -   قائمة الدخل - Income statement:
 	-   إيرادات Revenues.
-	-   مصروفات Expenses.
+	-   مصروفات Expenses.  
 	إيرادات - مصروفات = صافي الدخل ( ربح / خسارة )
 
 -   قائمة المركز المالي (الميزانية ) - Balance sheet:
