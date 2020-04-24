@@ -102,16 +102,16 @@ title: مدخل للقوائم المالية
 
 ---
 
-|الرمز|العملية الحسابية (إضغط على الصورة للتكبير)|التعريف|المؤشر|
+|المؤشر|التعريف|العملية الحسابية (إضغط على الصورة للتكبير)|الرمز|
 |:--:|:--:|:--:|:--:|
-|🔼|[![](https://alioh.github.io/images/2020-4-23/gross-margin.jpg)](https://alioh.github.io/images/2020-4-23/gross-margin.jpg)|نسبة نجاح المنشأة في تحقيق أرباح مقابل نفقاتها لإنشاء المنتجات|Gross Margin % الربح الإجمالي|
-|🔼|[![](https://alioh.github.io/images/2020-4-23/net-profit.jpg)](https://alioh.github.io/images/2020-4-23/net-profit.jpg)|نسبة الربح بعد خصم تكاليف الإنتاج|Net Income % صافي الدخل|
-|🔼|[![](https://alioh.github.io/images/2020-4-23/eps.jpg)](https://alioh.github.io/images/2020-4-23/eps.jpg)|قياس ربح كل سهم في المنشأة|Return per share العائد على السهم|
-|🔼|[![](https://alioh.github.io/images/2020-4-23/roa.jpg)](https://alioh.github.io/images/2020-4-23/roa.jpg)|مقارنة أرباح المنشأة مع كل وحدة من الأصول|Return on assets % العائد على الأصول|
-|🔼|[![](https://alioh.github.io/images/2020-4-23/roe.jpg)](https://alioh.github.io/images/2020-4-23/roe.jpg)|قدرة المنشأة على تحويل الأموال المستثمرة فيها إلى أرباح|Return on equity % العائد على حقوق المساهمين|
-|🔽|[![](https://alioh.github.io/images/2020-4-23/per.jpg)](https://alioh.github.io/images/2020-4-23/per.jpg)|متى يمكن إعادة الأموال المستثمرة في المنشأة|Price–earnings ratio مكرر الأرباح|
-|🔽|[![](https://alioh.github.io/images/2020-4-23/ltoa.jpg)](https://alioh.github.io/images/2020-4-23/ltoa.jpg)|قدرة المنشأة على تسديد التزاماتها|Liabilities to total assests المطلوبات إلى الموجودات|
-|🔽|[![](https://alioh.github.io/images/2020-4-23/dtoa.jpg)](https://alioh.github.io/images/2020-4-23/dtoa.jpg)|حجم القروض مقارنة بما لدى المنشأة|Debt to total assests القروض إلى الموجودات|
+|Gross Margin % الربح الإجمالي|نسبة نجاح المنشأة في تحقيق أرباح مقابل نفقاتها لإنشاء المنتجات|[![](https://alioh.github.io/images/2020-4-23/gross-margin.jpg)](https://alioh.github.io/images/2020-4-23/gross-margin.jpg)|🔼|
+|Net Income % صافي الدخل|نسبة الربح بعد خصم تكاليف الإنتاج|[![](https://alioh.github.io/images/2020-4-23/net-profit.jpg)](https://alioh.github.io/images/2020-4-23/net-profit.jpg)|🔼|
+Return per share العائد على السهم|قياس ربح كل سهم في المنشأة|[![](https://alioh.github.io/images/2020-4-23/eps.jpg)](https://alioh.github.io/images/2020-4-23/eps.jpg)|🔼|
+|Return on assets % العائد على الأصول|مقارنة أرباح المنشأة مع كل وحدة من الأصول|[![](https://alioh.github.io/images/2020-4-23/roa.jpg)](https://alioh.github.io/images/2020-4-23/roa.jpg)|🔼|
+|Return on equity % العائد على حقوق المساهمين|قدرة المنشأة على تحويل الأموال المستثمرة فيها إلى أرباح|[![](https://alioh.github.io/images/2020-4-23/roe.jpg)](https://alioh.github.io/images/2020-4-23/roe.jpg)|🔼|
+|Price–earnings ratio مكرر الأرباح|متى يمكن إعادة الأموال المستثمرة في المنشأة|[![](https://alioh.github.io/images/2020-4-23/per.jpg)](https://alioh.github.io/images/2020-4-23/per.jpg)|🔽|
+|Liabilities to total assests المطلوبات إلى الموجودات|قدرة المنشأة على تسديد التزاماتها|[![](https://alioh.github.io/images/2020-4-23/ltoa.jpg)](https://alioh.github.io/images/2020-4-23/ltoa.jpg)|🔽|
+|Debt to total assests القروض إلى الموجودات|حجم القروض مقارنة بما لدى المنشأة|[![](https://alioh.github.io/images/2020-4-23/dtoa.jpg)](https://alioh.github.io/images/2020-4-23/dtoa.jpg)|🔽|
 
 
 ---
