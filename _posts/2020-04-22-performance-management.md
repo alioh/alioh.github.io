@@ -113,6 +113,7 @@ Return per share العائد على السهم|قياس ربح كل سهم في
 |Liabilities to total assests المطلوبات إلى الموجودات|قدرة المنشأة على تسديد التزاماتها|[![](https://alioh.github.io/images/2020-4-23/ltoa.jpg)](https://alioh.github.io/images/2020-4-23/ltoa.jpg)|🔽|
 |Debt to total assests القروض إلى الموجودات|حجم القروض مقارنة بما لدى المنشأة|[![](https://alioh.github.io/images/2020-4-23/dtoa.jpg)](https://alioh.github.io/images/2020-4-23/dtoa.jpg)|🔽|
 
+سيتم إضافة المزيد لاحقاً
 
 ---
 
