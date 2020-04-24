@@ -112,6 +112,9 @@ Return per share العائد على السهم|قياس ربح كل سهم في
 |Price–earnings ratio مكرر الأرباح|متى يمكن إعادة الأموال المستثمرة في المنشأة|[![](https://alioh.github.io/images/2020-4-23/per.jpg)](https://alioh.github.io/images/2020-4-23/per.jpg)|🔽|
 |Liabilities to total assests المطلوبات إلى الموجودات|قدرة المنشأة على تسديد التزاماتها|[![](https://alioh.github.io/images/2020-4-23/ltoa.jpg)](https://alioh.github.io/images/2020-4-23/ltoa.jpg)|🔽|
 |Debt to total assests القروض إلى الموجودات|حجم القروض مقارنة بما لدى المنشأة|[![](https://alioh.github.io/images/2020-4-23/dtoa.jpg)](https://alioh.github.io/images/2020-4-23/dtoa.jpg)|🔽|
+|Book value القيمة الدفترية|قيمة المنشأة حسب الورق|[![](https://alioh.github.io/images/2020-4-23/bvalue.jpg)](https://alioh.github.io/images/2020-4-23/bvalue.jpg)|🔽|
+|Price to book (P/B) value مضاعف القيمة الدفترية|يقيس سعر سهم المنشأة مقارنه بقيمتها الدفترية|[![](https://alioh.github.io/images/2020-4-23/pbvalue.jpg)](https://alioh.github.io/images/2020-4-23/pbvalue.jpg)|🔽|
+
 
 سيتم إضافة المزيد لاحقاً
 
@@ -144,4 +147,4 @@ Return per share العائد على السهم|قياس ربح كل سهم في
 - مادة [إدارة الأداء المالي بفاعلية](https://kkux.org/courses/course-v1:KKU+PM101+2020_M1/about) من جامعة الملك خالد. 
 - مادة [Reading Financial Statements](https://courses.corporatefinanceinstitute.com/courses/learn-to-read-financial-statements-free-course) من [CFI](https://corporatefinanceinstitute.com/).
 - مصدر القوائم المالية [Investing](https://sa.investing.com/equities/united-wire-factories-financial-summary).
-- النسب المالية: [1](https://learn.tradimo.com/bna-mhfzt-astthmaryt-mn-alashm/nsb-alada-almaly-al-ayd-ly-alashm-wras-almal-walaswl), [2](https://www.aleqt.com/2013/10/18/article_793557.html), [3](https://twitter.com/abu_saleh_0/status/1220436724616179713), [4](https://mafaheem.info/?cat=6)
+- النسب المالية: [1](https://learn.tradimo.com/bna-mhfzt-astthmaryt-mn-alashm/nsb-alada-almaly-al-ayd-ly-alashm-wras-almal-walaswl), [2](https://www.aleqt.com/2013/10/18/article_793557.html), [3](https://twitter.com/abu_saleh_0/status/1220436724616179713), [4](https://mafaheem.info/?cat=6), [5](https://www.argaam.com/ar/article/articledetail/id/511318), [6](https://www.youtube.com/watch?v=v-2pc2s-384) 
