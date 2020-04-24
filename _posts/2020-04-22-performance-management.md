@@ -143,8 +143,10 @@ Return per share العائد على السهم|قياس ربح كل سهم في
 **التدفقات النقدية المستقبلية**: حجم السيولة المتوقع توفرها في المنشأة بناءًا على أنشطتها.
 
 
+
+  
 مراجع:
 - مادة [إدارة الأداء المالي بفاعلية](https://kkux.org/courses/course-v1:KKU+PM101+2020_M1/about) من جامعة الملك خالد. 
 - مادة [Reading Financial Statements](https://courses.corporatefinanceinstitute.com/courses/learn-to-read-financial-statements-free-course) من [CFI](https://corporatefinanceinstitute.com/).
 - مصدر القوائم المالية [Investing](https://sa.investing.com/equities/united-wire-factories-financial-summary).
-- النسب المالية: [1](https://learn.tradimo.com/bna-mhfzt-astthmaryt-mn-alashm/nsb-alada-almaly-al-ayd-ly-alashm-wras-almal-walaswl), [2](https://www.aleqt.com/2013/10/18/article_793557.html), [3](https://twitter.com/abu_saleh_0/status/1220436724616179713), [4](https://mafaheem.info/?cat=6), [5](https://www.argaam.com/ar/article/articledetail/id/511318), [6](https://www.youtube.com/watch?v=v-2pc2s-384) 
+- النسب المالية: [1](https://learn.tradimo.com/bna-mhfzt-astthmaryt-mn-alashm/nsb-alada-almaly-al-ayd-ly-alashm-wras-almal-walaswl), [2](https://www.aleqt.com/2013/10/18/article_793557.html), [3](https://twitter.com/abu_saleh_0/status/1220436724616179713), [4](https://mafaheem.info/?cat=6), [5](https://www.argaam.com/ar/article/articledetail/id/511318), [6](https://www.youtube.com/watch?v=v-2pc2s-384), [7](https://www.derayah.com/Html/ar/learning/financialanalysis.html)
