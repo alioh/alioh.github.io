@@ -104,7 +104,7 @@ title: مدخل للقوائم المالية
 
 |المؤشر|التعريف|العملية الحسابية (إضغط على الصورة للتكبير)|الرمز|
 |:--:|:--:|:--:|:--:|
-|Gross Margin % الربح الإجمالي|نسبة نجاح المنشأة في تحقيق أرباح مقابل نفقاتها لإنشاء المنتجات|[![](https://alioh.github.io/images/2020-4-23/gross-margin.jpg)](https://alioh.github.io/images/2020-4-23/gross-margin.jpg)|🔼|
+|%<br>Gross Margin<br>  الربح الإجمالي|نسبة نجاح المنشأة في تحقيق أرباح مقابل نفقاتها لإنشاء المنتجات|[![](https://alioh.github.io/images/2020-4-23/gross-margin.jpg)](https://alioh.github.io/images/2020-4-23/gross-margin.jpg)|🔼|
 |Profit Margin % صافي الدخل|نسبة الربح بعد خصم تكاليف الإنتاج|[![](https://alioh.github.io/images/2020-4-23/net-profit.jpg)](https://alioh.github.io/images/2020-4-23/net-profit.jpg)|🔼|
 Return per share العائد على السهم|قياس ربح كل سهم في المنشأة|[![](https://alioh.github.io/images/2020-4-23/eps.jpg)](https://alioh.github.io/images/2020-4-23/eps.jpg)|🔼|
 |Return on assets % العائد على الأصول|مقارنة أرباح المنشأة مع كل وحدة من الأصول|[![](https://alioh.github.io/images/2020-4-23/roa.jpg)](https://alioh.github.io/images/2020-4-23/roa.jpg)|🔼|
