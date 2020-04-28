@@ -114,7 +114,7 @@ title: مدخل للقوائم المالية
 |Debt to total assests<br>القروض إلى الموجودات|حجم القروض مقارنة بما لدى المنشأة|[![](https://alioh.github.io/images/2020-4-23/dtoa.jpg)](https://alioh.github.io/images/2020-4-23/dtoa.jpg)|🔽|
 |Book value<br>القيمة الدفترية|قيمة المنشأة حسب الورق|[![](https://alioh.github.io/images/2020-4-23/bvalue.jpg)](https://alioh.github.io/images/2020-4-23/bvalue.jpg)|🔽|
 |Price to book (P/B) value<br>مضاعف القيمة الدفترية|يقيس سعر سهم المنشأة مقارنه بقيمتها الدفترية|[![](https://alioh.github.io/images/2020-4-23/pbvalue.jpg)](https://alioh.github.io/images/2020-4-23/pbvalue.jpg)|🔽<br>من 1-3|
-|Dividend Yield<br>العائد على الأرباح الموزعة|نسبة الربح الموزع مقارنة بالسعر الحالي|$$\frac{\text{الارباح الموزعة للسهم الواحد}}{\text{سعر السهم}}$$|🔼|
+|Dividend Yield<br>العائد على الأرباح الموزعة|نسبة الربح الموزع مقارنة بالسعر الحالي|[![](https://alioh.github.io/images/2020-4-23/dividend_yield.jpg)](https://alioh.github.io/images/2020-4-23/dividend_yield.jpg)|🔼|
 
 
 

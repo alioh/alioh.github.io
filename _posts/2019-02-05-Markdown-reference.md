@@ -140,6 +140,8 @@ _مائل 2_
 [![عنوان الصورة](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
 
+لإضافة عمليات حسابية ورياضية الشرح كامل [هنا](https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference)
+
 
 مصادر:
 - <http://agea.github.io/tutorial.md/>
