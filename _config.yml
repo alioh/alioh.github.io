@@ -42,8 +42,8 @@ footer-links:
 disqus: 
 
 # إذا أردت تفعيل إحصاءات الزوار في Google Analytics أدخل المعرف الخاص بك (مثلاً UA-2110908-2)
-# google_analytics: UA-134016492-1
-google_analytics: G-2R32RX6BYY
+google_analytics: UA-134016492-1
+# google_analytics: G-2R32RX6BYY
 
 google_ad_client: ca-pub-8513572715092457
 
