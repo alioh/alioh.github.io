@@ -1,6 +1,7 @@
 ---  
 layout: post
 title: Data Science Nanodegree Capstone Project
+icon: ☕
 ---  
 
 This project (Capstone Project) is part of Udacity's Data Scientist Nanodegree program    
