@@ -1,7 +1,7 @@
 ---  
 layout: post
 title: المشاريع المفضلة في Github
-icon: ⭐
+icon: <img height="32" width="32" src="https://unpkg.com/simple-icons@v4/icons/github.svg" />
 ---  
 
 في هذه المقالة سأشارككم بعض من المشاريع البرمجية والصفحات المفضلة لدي في موقع Github. موقع Github باختصار هو طريقة لتخزين، مشاركة، وحفظ المشاريع البرمجية والتحكم بالإصدارات باستخدام Git.
