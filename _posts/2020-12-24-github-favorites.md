@@ -11,9 +11,6 @@ icon: ⭐
 
 في هذه المقالة سأشارككم بعض من المشاريع من [مفضلتي](https://github.com/alioh?tab=stars) في Github مع إضافة بعض المعلومات البسيطة عنها. بعض هذه المشاريع عبارة عن برامج مفتوحة المصدر، صفحات تعليمية، أو مصادر للقراءة وكلها لديها صفحاتها في Github، يمكنك فيها مشاهدة جميع الأكواد البرمجية والتعلم منها. هذه المشاريع هي بعض من أكثر من 850 مشروع في [مفضلتي](https://github.com/alioh?tab=stars) لذا قد يتم إضافة المزيد في مقالات قادمة إن شاء الله.
 
-<br>
-<br>
-<br>
 
 ## البيانات وواجهات برمجة التطبيقات APIs
 
@@ -52,9 +49,6 @@ icon: ⭐
 - [ARBML](https://arbml.github.io/ARBML/Interfaces/Website/): نماذج عربية متنوعة في تعلم الآلة مفتوحة المصدر.
 - [CAMeL](https://github.com/CAMeL-Lab/camel_tools): مكتبة لتحليل ومعالجة اللغات الطبيعية NLP في بايثون ومتخصصة باللغة العربية.
 
-<br>
-<br>
-<br>
 
 ## الكتب، البحوث والدورات
 
@@ -103,9 +97,6 @@ icon: ⭐
 - [You Don't Know JS](https://github.com/getify/You-Dont-Know-JS/blob/1st-ed/README.md): النسخة الأولى للكتاب، الكتاب لتعلم لغة Javascript.
 - [The Odin Project](https://www.theodinproject.com/): دورات متنوعة في تقنيات الويب ولغاتها مثل Ruby on Rails، Nodejs، Javascript، HTML وقواعد البيانات.
 
-<br>
-<br>
-<br>
 
 ## الاستعداد للمقابلات الوظيفية
 
@@ -131,9 +122,7 @@ icon: ⭐
 - [freeCodeCamp](https://www.freecodecamp.org/): متخصص بعدة مجالات مثل تطوير المواقع، تحليل وتصوير البيانات، تعلم الآلة وأمن المعلومات وغيرها.
 - [Game Developer Roadmap](https://github.com/utilForever/game-developer-roadmap): طريقك لتصبح مطور ألعاب.
 
-<br>
-<br>
-<br>
+
 
 ## التعلم بالتطبيق
 
@@ -145,9 +134,7 @@ icon: ⭐
 - [Project Based Learning](https://github.com/tuvtran/project-based-learning): تعلم لغات مختلفة عن طريق بناء المشاريع.
 - [Project Learn](https://projectlearn.io/): تطبيقات عملية متنوعة بعدة لغات ومكتبات لتطوير الويب، تطوير تطبيقات الهواتف، تعلم الآلة والذكاء الاصطناعي والألعاب.
 
-<br>
-<br>
-<br>
+
 
 ## علوم الحاسب
 
@@ -157,20 +144,14 @@ icon: ⭐
 - [Open Source CS](https://github.com/ForrestKnight/open-source-cs): يقدم لك مواد علمية من عدلة جامعات تساعدك على الحصول على ما يساوي شهادة في علوم الحاسب.
 - [Computer Science and Programming](https://github.com/P1xt/p1xt-guides): يقدم لك مواد علمية من عدلة جامعات تساعدك على الحصول على ما يساوي شهادة في علوم الحاسب.
 
-<br>
-<br>
-<br>
+
 
 ## أخرى
 
 - [RealWorld](https://github.com/gothinkster/realworld): الفكرة هي تصميم موقع مشابه ل [Medium.com](https://Medium.com) بعدة لغات برمجة ومكاتب مختلفة، يمكنك تصفح هذه البرامج والتعلم منها.
 - [Awesome Python Applications](https://github.com/mahmoud/awesome-python-applications): برامج مفتوحة المصدر تم تطويرها باستخدام بايثون في عدة مجالات.
 
-<br>
-<br>
 
 هذه بعض من [مفضلتي](https://github.com/alioh?tab=stars) في Github. تواصل معي على [تويتر](https://twitter.com/alioh) وأقترح لي مشاريعك أو صفحاتك المفضلة!
 
-<br>
-<br>
 
