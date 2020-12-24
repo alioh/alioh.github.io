@@ -166,9 +166,10 @@ icon: ⭐
 - [RealWorld](https://github.com/gothinkster/realworld): الفكرة هي تصميم موقع مشابه ل [Medium.com](https://Medium.com) بعدة لغات برمجة ومكاتب مختلفة، يمكنك تصفح هذه البرامج والتعلم منها.
 - [Awesome Python Applications](https://github.com/mahmoud/awesome-python-applications): برامج مفتوحة المصدر تم تطويرها باستخدام بايثون في عدة مجالات.
 
+<br>
+<br>
 
-
-هذه بعض من [مفضلتي](https://github.com/alioh?tab=stars) في Github. تواصل معي على [تويتر](https://twitter.com/alioh) وأقترح لي مشاريعك المفضلة في Github!
+هذه بعض من [مفضلتي](https://github.com/alioh?tab=stars) في Github. تواصل معي على [تويتر](https://twitter.com/alioh) وأقترح لي مشاريعك أو صفحاتك المفضلة!
 
 
 
