@@ -138,11 +138,11 @@ icon: ⭐
 
 ## علوم الحاسب
 
-تعلم علوم الحاسب من عدة مصادر.
+تعلم علوم الحاسب من عدة مصادر، تقدم هذه الصفحات جدول مرتب لك لمواد علمية من عدة جامعات تساعدك على الحصول على ما يساوي شهادة في علوم الحاسب
 
-- [Open Source Society University](https://github.com/ossu/computer-science): يقدم لك مواد علمية من عدلة جامعات تساعدك على الحصول على ما يساوي شهادة في علوم الحاسب.
-- [Open Source CS](https://github.com/ForrestKnight/open-source-cs): يقدم لك مواد علمية من عدلة جامعات تساعدك على الحصول على ما يساوي شهادة في علوم الحاسب.
-- [Computer Science and Programming](https://github.com/P1xt/p1xt-guides): يقدم لك مواد علمية من عدلة جامعات تساعدك على الحصول على ما يساوي شهادة في علوم الحاسب.
+- [Open Source Society University](https://github.com/ossu/computer-science).
+- [Open Source CS](https://github.com/ForrestKnight/open-source-cs).
+- [Computer Science and Programming](https://github.com/P1xt/p1xt-guides).
 
 
 
