@@ -77,11 +77,11 @@ icon: 📰
 
 ### عدد المقالات يومياً
 
-{% include NewsOverTimeFig.html %}
+[![](https://alioh.github.io/images/2021-7-27/NewsOverTimeFig.png)](https://alioh.github.io/images/2021-7-27/NewsOverTimeFig.png)
 
 ### عدد المقالات حسب الأيام
 
-{% include DaysNewsfig.html %}
+[![](https://alioh.github.io/images/2021-7-27/DaysNewsfig.png)](https://alioh.github.io/images/2021-7-27/DaysNewsfig.png)
 
 ### عدد المقالات حسب النوع
 
@@ -125,7 +125,7 @@ icon: 📰
 
 {% include NewsByCategoryfig.html %}
 
-{% include NewsByCategoryHistofig .html %}
+{% include NewsByCategoryHistofig.html %}
 
 {% include NewsByCategoryPiefig.html %}
 
