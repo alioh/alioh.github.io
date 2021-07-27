@@ -123,11 +123,10 @@ icon: 📰
 |آخر الأخبار|1|
 |نجوم الأمس الرياضي|1|
 
-{% include NewsByCategoryfig.html %}
 
-{% include NewsByCategoryHistofig.html %}
+[![](https://alioh.github.io/images/2021-7-27/NewsByCategoryHistofig.png)](https://alioh.github.io/images/2021-7-27/NewsByCategoryHistofig.png)
 
-{% include NewsByCategoryPiefig.html %}
+يمكن عرض جميع الرسوم البيانية بشكل تفاعلي في [صفحة المشروع][streamlit]
 
 ## تحميل البيانات
 
@@ -152,3 +151,4 @@ icon: 📰
 [github]: https://github.com/alioh/AlRiyadh-Newspaper-Covid-Dataset/
 [direct]: https://github.com/alioh/AlRiyadh-Newspaper-Covid-Dataset/raw/master/Alriyadh_News_Dataset.zip
 [CCA]: https://creativecommons.org/licenses/by-nc/3.0/
+[streamlit]: https://share.streamlit.io/alioh/alriyadh-newspaper-covid-dataset/dashboard.py
