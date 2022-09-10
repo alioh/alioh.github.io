@@ -181,3 +181,7 @@ James, Gareth, et al. An introduction to statistical learning. Vol. 112. New Yor
 [kflod]: https://machinelearningmastery.com/k-fold-cross-validation/
 [kfold2]: https://bradleyboehmke.github.io/HOML/process.html
 [github]: https://github.com/alioh/Bias-and-Variance/blob/main/Bias-variance%20tradeoff.ipynb
+
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
