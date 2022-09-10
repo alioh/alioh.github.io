@@ -116,7 +116,7 @@ $$ = var(\hat f_{x_0}) + bias(\hat f_{x_0})^2 + var (\epsilon^2) $$
 
 
 [![](https://alioh.github.io/images/2022-09-09/constat_term.png)](https://alioh.github.io/images/2022-09-09/constat_term.png)
-**مثال**: عند إضافة قيمة غير متغيره 5 (اللون الأزرق)، صفر (اللون الأحمر)، -5 (اللون الأخضر). [المصدر][constat_term]
+**مثال**: عند إضافة قيمة غير متغيره 5 (اللون الأحمر)، صفر (اللون الأزرق)، -5 (اللون الأخضر). [المصدر][constat_term]
 
 
 ## الإستعمالات
