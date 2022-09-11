@@ -165,11 +165,7 @@ James, Gareth, et al. An introduction to statistical learning. Vol. 112. New Yor
 
 --------------------------------------------------------
 
-<p align="left">
-<a href="http://https://towardsdatascience.com/a-visual-understanding-of-bias-and-variance-66179f16be32">
-المصدر
-</a>
-</p>
+
 
 
 [bullseye]: https://alioh.github.io/images/2022-09-09/bullseye.png
@@ -183,6 +179,12 @@ James, Gareth, et al. An introduction to statistical learning. Vol. 112. New Yor
 [kflod]: https://machinelearningmastery.com/k-fold-cross-validation/
 [kfold2]: https://bradleyboehmke.github.io/HOML/process.html
 [github]: https://github.com/alioh/Bias-and-Variance/blob/main/Bias-variance%20tradeoff.ipynb
+
+<p align="left">
+<a href="http://https://towardsdatascience.com/a-visual-understanding-of-bias-and-variance-66179f16be32">
+المصدر
+</a>
+</p>
 
 <script type="text/javascript" async
   src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
