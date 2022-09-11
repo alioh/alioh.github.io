@@ -166,16 +166,16 @@ James, Gareth, et al. An introduction to statistical learning. Vol. 112. New Yor
 --------------------------------------------------------
 
 <p align="left">
-
-[المصدر][source]
-
+<a href="http://https://towardsdatascience.com/a-visual-understanding-of-bias-and-variance-66179f16be32">
+المصدر
+</a>
 </p>
 
 
 [bullseye]: https://alioh.github.io/images/2022-09-09/bullseye.png
 [boston_housing]: https://www.cs.toronto.edu/~delve/data/boston/bostonDetail.html
 [Introduction to Statistical Learning]: https://www.statlearning.com/
-[source]: https://towardsdatascience.com/a-visual-understanding-of-bias-and-variance-66179f16be32
+[source]: 
 [wiki]: https://towardsdatascience.com/
 [mse]: https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff#Derivationbias-variance-decomposition-101-a-step-by-step-computation-9d5f3694877
 [constat_term]: https://www.quora.com/In-regression-why-do-we-include-a-constant-term
