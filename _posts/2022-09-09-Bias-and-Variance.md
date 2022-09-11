@@ -165,9 +165,9 @@ James, Gareth, et al. An introduction to statistical learning. Vol. 112. New Yor
 
 --------------------------------------------------------
 
-
-أحببت مشاركتكم ونقل هذة المقالة إلى العربية، لبساطتها وسهولة توصيل الفكرة فيها، [مصدر][source] المقالة.
-
+<left>
+[المصدر][source]
+</left>
 
 
 [bullseye]: https://alioh.github.io/images/2022-09-09/bullseye.png
