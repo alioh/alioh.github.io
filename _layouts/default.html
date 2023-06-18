@@ -1,27 +1,18 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8513572715092457"
-     crossorigin="anonymous"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics 
-    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_ad_client}}"></script>-->
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
 
-      gtag('config', '{{site.google_ad_client}}');
+      gtag('config', '{{site.google_analytics}}');
     </script>
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% include meta.html %}
-    
-    <!--{% if site.google_ad_client %}
-      {% include google_adsense.html %}
-    {% endif %} -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
     <meta name="google-site-verification" content="gbu-u2MGIQ5LHElnj4eJzDLq25MNBeVJpCPSyAx6qXQ" />
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
