@@ -166,7 +166,7 @@ James, Gareth, et al. An introduction to statistical learning. Vol. 112. New Yor
 --------------------------------------------------------
 
 <p align="left">
-<a href="http://https://towardsdatascience.com/a-visual-understanding-of-bias-and-variance-66179f16be32">
+<a href="https://towardsdatascience.com/a-visual-understanding-of-bias-and-variance-66179f16be32">
 المصدر
 </a>
 </p>
