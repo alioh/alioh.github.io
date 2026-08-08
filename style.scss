@@ -109,6 +109,12 @@ a {
   }
 }
 
+a:focus-visible, button:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 ul, ol {
   margin: 15px 0;
   padding-right: 30px;
@@ -280,6 +286,12 @@ nav {
 .posts > .post {
   padding-bottom: 2em;
   border-bottom: 1px solid $lightGray;
+
+  .date {
+    margin-top: 0;
+    text-align: right;
+    font-size: 15px;
+  }
 }
 
 .posts > .post:last-child {
@@ -369,6 +381,10 @@ footer {
   &:hover {
     border-color: var(--accent);
     color: var(--accent);
+  }
+
+  &:focus-visible {
+    border-radius: 50%;
   }
 
   .icon {
@@ -475,6 +491,13 @@ footer {
       margin: 0;
       color: $gray;
       font-size: 16px;
+
+      // Sits above the stretched .post-link overlay so links inside the
+      // excerpt (e.g. citations) stay clickable instead of being swallowed.
+      a {
+        position: relative;
+        z-index: 1;
+      }
     }
 
     .read-more {
@@ -527,6 +550,10 @@ footer {
       border-color: $blue;
       color: $blue;
       box-shadow: 0 2px 10px var(--shadow);
+    }
+
+    &:focus-visible {
+      border-radius: 999px;
     }
   }
 }

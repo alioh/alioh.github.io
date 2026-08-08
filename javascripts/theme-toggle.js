@@ -15,9 +15,12 @@
     var btn = document.getElementById('theme-toggle');
     if (!btn) return;
 
+    btn.setAttribute('aria-pressed', String(currentTheme() === 'light'));
+
     btn.addEventListener('click', function () {
       var next = currentTheme() === 'dark' ? 'light' : 'dark';
       applyTheme(next);
+      btn.setAttribute('aria-pressed', String(next === 'light'));
       try {
         localStorage.setItem('theme', next);
       } catch (e) {}
