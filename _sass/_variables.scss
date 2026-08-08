@@ -2,16 +2,41 @@
 // VARIABLES
 //
 
-// Colors
-$blue: #4183C4;
+// Theme tokens — dark is the default (:root), light is an explicit opt-in
+// via [data-theme="light"] set by javascripts/theme-toggle.js.
+:root {
+  color-scheme: dark;
+  --bg: #14171a;
+  --bg-elevated: #1e2227;
+  --fg: #edeef0;
+  --fg-muted: #9aa3ac;
+  --border: #2c3137;
+  --accent: #6cabf2;
+  --shadow: rgba(0, 0, 0, 0.45);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+  --bg: #ffffff;
+  --bg-elevated: #f6f7f8;
+  --fg: #222222;
+  --fg-muted: #666666;
+  --border: #eaeaea;
+  --accent: #2f6fb0;
+  --shadow: rgba(0, 0, 0, 0.08);
+}
+
+// Colors — mapped onto the theme tokens above so every existing usage
+// of these variables becomes theme-aware automatically.
+$blue: var(--accent);
 
 // Grays
-$black: #000;
-$darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
-$lightGray: #eee;
-$white: #fff;
+$black: var(--fg);
+$darkerGray: var(--fg);
+$darkGray: var(--fg);
+$gray: var(--fg-muted);
+$lightGray: var(--border);
+$white: var(--bg);
 $red: #dd2b55;
 
 $base-font-family: Helvetica, Arial, sans-serif;

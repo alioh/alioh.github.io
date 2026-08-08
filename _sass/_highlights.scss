@@ -1,12 +1,10 @@
 .highlight, code { direction: ltr; }
 
 .highlight {
-  background-color: #efefef;
+  background-color: var(--bg-elevated);
   padding: 7px 7px 7px 10px;
-  border: 1px solid #ddd;
-  -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
-  box-shadow: 3px 3px rgba(0,0,0,0.1);
+  border: 1px solid var(--border);
+  box-shadow: 3px 3px var(--shadow);
   margin: 20px 0 20px 0;
   overflow: scroll;
 }
@@ -66,7 +64,7 @@ code {
 .highlight .nf { color: #268BD2 } /* Name.Function */
 .highlight .nl { color: #93A1A1 } /* Name.Label */
 .highlight .nn { color: #93A1A1 } /* Name.Namespace */
-.highlight .nx { color: #555 } /* Name.Other */
+.highlight .nx { color: var(--fg-muted) } /* Name.Other */
 .highlight .py { color: #93A1A1 } /* Name.Property */
 .highlight .nt { color: #268BD2 } /* Name.Tag */
 .highlight .nv { color: #268BD2 } /* Name.Variable */

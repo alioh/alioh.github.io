@@ -1,17 +1,30 @@
 ---
-layout: default
+layout: home
 ---
 
-<div class="posts">
-  {% for post in site.posts %}
-    <article class="post">
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.icon }} {{ post.title }}</a></h1>
+<section class="bio">
+  <h1>مرحبًا، أنا {{ site.name }}</h1>
+  <p>
+    خريج علوم حاسب آلي وتقنية معلومات، ومهتم بعلم البيانات وبرمجة التطبيقات.
+    أكتب في هذه المدونة لإثراء المحتوى العربي التقني (والغير تقني أحياناً)، إما بترجمة
+    مقالات أعجبتني أو بكتابة محتوى شخصي.
+  </p>
+</section>
 
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
+<section class="recent-posts">
+  <h2>أحدث المقالات</h2>
 
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">اكمل القراءة</a>
-    </article>
-  {% endfor %}
-</div>
+  <div class="posts">
+    {% for post in site.posts limit: 5 %}
+      <article class="post">
+        <h3><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.icon }} {{ post.title }}</a></h3>
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+        <a class="read-more" href="{{ site.baseurl }}{{ post.url }}">اكمل القراءة ←</a>
+      </article>
+    {% endfor %}
+  </div>
+
+  <a href="{{ site.baseurl }}/blog" class="read-more">كل المقالات ←</a>
+</section>

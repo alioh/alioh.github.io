@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
   <head>
+    {% include theme-init.html %}
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
-    
+
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8513572715092457" crossorigin="anonymous"></script>
-    
+
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% seo %}
@@ -15,33 +17,14 @@
 
     <script src="{{ '/javascripts/fontfaceobserver.js' | prepend: site.baseurl }}"></script>
     <script src="{{ '/javascripts/blog.js' | prepend: site.baseurl }}"></script>
+    <script defer src="{{ '/javascripts/theme-toggle.js' | prepend: site.baseurl }}"></script>
 
-    
+
     <!-- Created with Arabic Jekyll - http://github.com/a3ammar/arabic-jekyll -->
   </head>
 
   <body lang="ar">
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          {% if site.avatar %}
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          {% endif %}
-
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-
-          <nav>
-            <a href="{{ site.baseurl }}/">المقالات</a>
-            <a href="{{ site.baseurl }}/other">محتوى آخر</a>
-            <a href="https://www.getrevue.co/profile/alioh">المجموعة البريدية</a>
-            <a href="{{ site.baseurl }}/about">من أنا</a>
-          </nav>
-        </header>
-      </div>
-    </div>
+    {% include header.html %}
 
     <div id="main" role="main" class="container {% if page.class %}{{ page.class }}{% endif %}">
 
@@ -74,14 +57,6 @@
 
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
-
-    {% include analytics.html %}
+    {% include footer.html %}
   </body>
 </html>

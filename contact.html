@@ -1,0 +1,36 @@
+---
+layout: home
+title: تواصل
+permalink: /contact/
+---
+
+<section id="contact" class="contact">
+  <h2>تواصل معي</h2>
+  <p>يمكنكم التواصل معي عبر إحدى الوسائل التالية:</p>
+
+  <div class="contact-links">
+    <a href="mailto:me@alioh.com" class="contact-link">
+      {% include icon.html name="email" %}<span>راسلني عبر الإيميل</span>
+    </a>
+    {% if site.footer-links.twitter %}
+    <a href="https://x.com/{{ site.footer-links.twitter }}" class="contact-link">
+      {% include icon.html name="x-twitter" %}<span>أكس / تويتر</span>
+    </a>
+    {% endif %}
+    {% if site.footer-links.linkedin %}
+    <a href="https://www.linkedin.com/in/{{ site.footer-links.linkedin }}" class="contact-link">
+      {% include icon.html name="linkedin" %}<span>لينكد إن</span>
+    </a>
+    {% endif %}
+    {% if site.footer-links.github %}
+    <a href="https://github.com/{{ site.footer-links.github }}" class="contact-link">
+      {% include icon.html name="github" %}<span>جيت هَب</span>
+    </a>
+    {% endif %}
+    {% if site.footer-links.telegram %}
+    <a href="https://telegram.me/{{ site.footer-links.telegram }}" class="contact-link">
+      {% include icon.html name="telegram" %}<span>تيليجرام</span>
+    </a>
+    {% endif %}
+  </div>
+</section>
