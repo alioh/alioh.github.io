@@ -49,7 +49,20 @@ google_ad_client: ca-pub-8513572715092457
 
 # عنوان موقعك مثلاً http://barryclark.github.io
 # يستخدم هذا المتغير في الـRSS والـSitemap.xml
-url: https://alioh.github.io
+url: https://alioh.com
+
+twitter:
+  username: alioh
+  card: summary
+
+# jekyll-seo-tag يقرأ image من بيانات كل صفحة (page front matter)، وليس من هنا
+# مباشرة، لذلك نستخدم defaults لتطبيقها على كل الصفحات تلقائيًا
+# (تستخدم لصورة Open Graph / Twitter Card عند مشاركة روابط الموقع)
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: https://github.com/alioh.png
 
 # إذا كانت المدونة خاصة للصفحات المشاريع في GitHub (http://yourusername.github.io/repository-name مثلاً) عدل هذا المتغير ليطابق اسم المشروع
 baseurl: ""

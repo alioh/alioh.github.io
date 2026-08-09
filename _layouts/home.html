@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar" dir="rtl">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +9,11 @@
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id={{site.google_analytics}}"></script>
 
+    <!-- AdSense site-verification snippet — required sitewide even on pages
+         with no visible ad units. No <ins class="adsbygoogle"> block here,
+         so this page stays ad-free to look at. -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8513572715092457" crossorigin="anonymous"></script>
+
     <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
     {% seo %}
@@ -16,14 +21,14 @@
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
     <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
 
-    <script src="{{ '/javascripts/fontfaceobserver.js' | prepend: site.baseurl }}"></script>
-    <script src="{{ '/javascripts/blog.js' | prepend: site.baseurl }}"></script>
+    <script defer src="{{ '/javascripts/fontfaceobserver.js' | prepend: site.baseurl }}"></script>
+    <script defer src="{{ '/javascripts/blog.js' | prepend: site.baseurl }}"></script>
     <script defer src="{{ '/javascripts/theme-toggle.js' | prepend: site.baseurl }}"></script>
 
     <!-- Created with Arabic Jekyll - http://github.com/a3ammar/arabic-jekyll -->
   </head>
 
-  <body lang="ar">
+  <body>
     {% include header.html %}
 
     <div id="main" role="main" class="container home">

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alioh.com/sitemap.xml
