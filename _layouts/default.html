@@ -33,6 +33,7 @@
 
       {{ content }}
 
+    {% unless page.no_ads %}
     <div class="entry">
       <ins class="adsbygoogle"
            style="display:block"
@@ -44,6 +45,7 @@
            (adsbygoogle = window.adsbygoogle || []).push({});
       </script>
     </div>
+    {% endunless %}
 
     </div>
 
