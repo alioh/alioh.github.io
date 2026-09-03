@@ -5,15 +5,32 @@ layout: home
 <section class="bio">
   <h1>مرحبًا 👋</h1>
   <p>
-    مدونة فيها محتوى تقني ومشاريع شخصية، وأحياناً ترجمة لمقالات أعجبتني.
+    خريج علوم حاسب وعالم بيانات، أبني أدوات مفيدة وأكتب هنا عن التقنية والبيانات، وأحياناً أترجم مقالات أعجبتني.
   </p>
+</section>
+
+<section class="projects">
+  <h2>مشاريعي</h2>
+
+  <div class="posts card-list">
+    <a class="post" href="https://daleel.li" target="_blank" rel="noopener noreferrer">
+      <h3>دليلي</h3>
+      <div class="entry">دليلك لسوق الأسهم السعودي: آخر الأخبار، تقرير يومي، حاسبة أرباح، وشرح للمؤشرات.</div>
+      <span class="read-more">زيارة الموقع ←</span>
+    </a>
+    <a class="post" href="https://tawzea.at" target="_blank" rel="noopener noreferrer">
+      <h3>توزيعات</h3>
+      <div class="entry">متابعة توزيعات الأرباح في السوق السعودي، مرتبة حسب الانتظام والعائد، مع تصفية حسب القطاع.</div>
+      <span class="read-more">زيارة الموقع ←</span>
+    </a>
+  </div>
 </section>
 
 <section class="recent-posts">
   <h2>أحدث المقالات</h2>
 
-  <div class="posts">
-    {% for post in site.posts limit: 5 %}
+  <div class="posts card-list">
+    {% for post in site.posts limit: 3 %}
       <article class="post">
         <h3><a class="post-link" href="{{ site.baseurl }}{{ post.url }}">{{ post.icon }} {{ post.title }}</a></h3>
         <div class="date">{{ post.date | date: "%d/%m/%Y" }}</div>
